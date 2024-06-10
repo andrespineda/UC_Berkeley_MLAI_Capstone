@@ -3,7 +3,7 @@ This is my Capstone Project for the Professional Certificate in Machine Learning
 
 The machine learning classification project was developed using the Cross Industry Standard Process for Data Mining (CRISP-DM) method (Schröer, et al, 2021) of data analysis, see Figure 1 below.
 
-<img src="./media/CRISP-DM.png" style="width:1.5in; height:1.5in"
+<img src="./media/CRISP-DM.png" style="width:1in; height:1in"
 alt="A diagram of the CRISP-DM Process Flow" />
 
 Figure 1: The Cross Industry Standard Process for Data Mining (CRISP-DM)
