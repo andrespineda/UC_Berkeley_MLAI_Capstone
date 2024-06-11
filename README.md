@@ -68,11 +68,11 @@ A copy of the SWELL dataset is available from several sources, including Kaggle:
 
 The SWELL dataset contains labeled samplings of the heart rate over time during non-stress and stressful conditions. Although the data is in time series format, the objective is to identify the timing differences between the heartbeat intervals. The time series data will require de-trending and stationarity techniques will be used to isolate the recurring heartbeat pattern. The peak-to-peak intervals can then be extracted to form the basis for the analysis.
 
+For classification modeling, the most recent techniques will be evaluated.
+<p></p>
+
 <img src="./media/deep-learning.png" width=150 height=150
 alt="Machine-Learning Graphic" />
-
-
-For classification modeling, the most recent techniques will be evaluated.
 
 These initial models include:
 
@@ -85,6 +85,9 @@ These initial models include:
 **Scope of Work**
 
 **Phase 1 - In Scope**
+<p></p>
+<img src="./data-analytics.png" width=150 height=150
+alt="Laptop Graphic" />
 
 The initial scope of work involves utilizing the SWELL stress dataset to train various classification models. Initially, the model would operate from a laptop with the captured HRV data input via an external file upload. This would be enough to validate the concept. Ultimately, the HRV heart rate gathering logic and the trained classification model would be coded as a smartphone app that could be downloaded from the Apple store or Google Play store by the average consumer.
 
@@ -92,21 +95,25 @@ Each model will undergo evaluation to determine the best fit for our primary obj
 
 
 **Phase 2 - In Scope**
+<p></p>
 <img src="./media/heart watch.png" width=150, height=150
-alt="Heart Watch Graphic" />
+alt="Heart Monitor Capture Graphic" />
 
 During Phase 2, the trained model will classify HRV (heart rate variability) data captured from an external wearable device. 
 Specifically, we will use data collected via a Polar H10 chest strap, commonly used by athletes to monitor heart rates during exercise. The data will undergo processing to extract rMSSD (root mean square of successive differences) inter-interval readings. These labeled data points will then be used to test and validate the classification model's accuracy.
 
 **Phase 3 - In Scope**
+<p></p>
 <img src="./media/phone_data_collection.png" width=150, height=150
-alt="Phone Data Collection Graphic" />
+alt="Heart Watch Graphic" />
+
 
 In Phase 3, well extend the trained model to classify HRV data obtained from smartphones. This data will consist of PPG (photoplethysmography) videos, which require processing to extract heartbeats.
 
  We will apply detrending and stationarity logic to obtain the rMSSD inter-interval readings. Like Phase 2, the labeled data will be used for testing and validating the classification model’s accuracy.
 
 **Phase 4 - Aspirational Goal (Out of Scope) **
+<p></p>
 <img src="./media/heart_app.png" width=150, height=150
 alt="Heart Rate App Graphic" />
 
