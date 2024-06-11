@@ -82,7 +82,8 @@ These initial models include:
 4. There may be additional classification methods later in the course that could also be used to develop an accurate classification model.
 
 <p></p><p></p>
-**Scope of Work**
+
+**Scope of this Project**
 
 **Phase 1 - In Scope**
 <p></p>
@@ -111,9 +112,7 @@ Specifically, we will use data collected via a Polar H10 chest strap, commonly u
 alt="Heart Watch Graphic" />
 
 
-In Phase 3, well extend the trained model to classify HRV data obtained from smartphones. This data will consist of PPG (photoplethysmography) videos, which require processing to extract heartbeats.
-
- We will apply detrending and stationarity logic to obtain the rMSSD inter-interval readings. Like Phase 2, the labeled data will be used for testing and validating the classification model’s accuracy.
+In Phase 3, we will extend the trained model to classify HRV data obtained from smartphones. This data will consist of PPG (photoplethysmography) videos, which require processing to extract heartbeats. We will apply detrending and stationarity logic to obtain the rMSSD inter-interval readings. Like Phase 2, the labeled data will be used for testing and validating the classification model’s accuracy.
 <p></p>
 
 **Phase 4 - Aspirational Goal (Out of Scope)**
