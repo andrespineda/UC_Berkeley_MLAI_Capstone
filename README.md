@@ -81,7 +81,7 @@ These initial models include:
 3. **Support Vector Model**
 4. There may be additional classification methods later in the course that could also be used to develop an accurate classification model.
 
-
+<p></p><p></p>
 **Scope of Work**
 
 **Phase 1 - In Scope**
@@ -93,6 +93,7 @@ The initial scope of work involves utilizing the SWELL stress dataset to train v
 
 Each model will undergo evaluation to determine the best fit for our primary objective: accuracy in predicting stress and processing speed. Additionally, we will explore alternative classification techniques introduced in upcoming lessons and incorporate them into the testing and evaluation process until the optimal model is selected.
 
+<p></p>
 
 **Phase 2 - In Scope**
 <p></p>
@@ -101,6 +102,8 @@ alt="Heart Monitor Capture Graphic" />
 
 During Phase 2, the trained model will classify HRV (heart rate variability) data captured from an external wearable device. 
 Specifically, we will use data collected via a Polar H10 chest strap, commonly used by athletes to monitor heart rates during exercise. The data will undergo processing to extract rMSSD (root mean square of successive differences) inter-interval readings. These labeled data points will then be used to test and validate the classification model's accuracy.
+
+<p></p>
 
 **Phase 3 - In Scope**
 <p></p>
@@ -111,15 +114,14 @@ alt="Heart Watch Graphic" />
 In Phase 3, well extend the trained model to classify HRV data obtained from smartphones. This data will consist of PPG (photoplethysmography) videos, which require processing to extract heartbeats.
 
  We will apply detrending and stationarity logic to obtain the rMSSD inter-interval readings. Like Phase 2, the labeled data will be used for testing and validating the classification model’s accuracy.
+<p></p>
 
-**Phase 4 - Aspirational Goal (Out of Scope) **
+**Phase 4 - Aspirational Goal (Out of Scope)**
 <p></p>
 <img src="./media/heart_app.png" width=150
 alt="Heart Rate App Graphic" />
 
-In the final deployment phase, we aim to combine the updated classification model with PPG heart rate reading logic into a single codebase. This codebase can run within a smartphone app, accessible via a graphical user interface. 
-
-Users will be able to start and stop reading, and the app will display an intuitive "stress indicator" graphic based on the inferred stress levels from the PPG data.
+In the final deployment phase, we aim to combine the updated classification model with PPG heart rate reading logic into a single codebase. This codebase can run within a smartphone app, accessible via a graphical user interface. Users will be able to start and stop reading, and the app will display an intuitive "stress indicator" graphic based on the inferred stress levels from the PPG data.
 
 ## **Data Preparation**
 
