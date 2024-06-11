@@ -96,7 +96,7 @@ Each model will undergo evaluation to determine the best fit for our primary obj
 
 **Phase 2 - In Scope**
 <p></p>
-<img src="./media/heart watch.png" width=150
+<img src="./media/heart watch.png" width=100
 alt="Heart Monitor Capture Graphic" />
 
 During Phase 2, the trained model will classify HRV (heart rate variability) data captured from an external wearable device. 
@@ -104,7 +104,7 @@ Specifically, we will use data collected via a Polar H10 chest strap, commonly u
 
 **Phase 3 - In Scope**
 <p></p>
-<img src="./media/phone_data_collection.png" width=150, height=150
+<img src="./media/phone_data-collection.png" width=150, height=150
 alt="Heart Watch Graphic" />
 
 
