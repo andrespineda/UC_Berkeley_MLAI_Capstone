@@ -86,7 +86,7 @@ These initial models include:
 
 **Phase 1 - In Scope**
 <p></p>
-<img src="./data-analytics.png" width=150 height=150
+<img src=".media/data-analytics.png" width=150 height=150
 alt="Laptop Graphic" />
 
 The initial scope of work involves utilizing the SWELL stress dataset to train various classification models. Initially, the model would operate from a laptop with the captured HRV data input via an external file upload. This would be enough to validate the concept. Ultimately, the HRV heart rate gathering logic and the trained classification model would be coded as a smartphone app that could be downloaded from the Apple store or Google Play store by the average consumer.
@@ -96,7 +96,7 @@ Each model will undergo evaluation to determine the best fit for our primary obj
 
 **Phase 2 - In Scope**
 <p></p>
-<img src="./media/heart watch.png" width=150, height=150
+<img src="./media/heart watch.png" width=150
 alt="Heart Monitor Capture Graphic" />
 
 During Phase 2, the trained model will classify HRV (heart rate variability) data captured from an external wearable device. 
@@ -114,7 +114,7 @@ In Phase 3, well extend the trained model to classify HRV data obtained from sma
 
 **Phase 4 - Aspirational Goal (Out of Scope) **
 <p></p>
-<img src="./media/heart_app.png" width=150, height=150
+<img src="./media/heart_app.png" width=150
 alt="Heart Rate App Graphic" />
 
 In the final deployment phase, we aim to combine the updated classification model with PPG heart rate reading logic into a single codebase. This codebase can run within a smartphone app, accessible via a graphical user interface. 
