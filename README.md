@@ -86,7 +86,7 @@ These initial models include:
 
 **Phase 1 - In Scope**
 <p></p>
-<img src=".media/data-analytics.png" width=150 height=150
+<img src="./media/data-analytics.png" width=150 height=150
 alt="Laptop Graphic" />
 
 The initial scope of work involves utilizing the SWELL stress dataset to train various classification models. Initially, the model would operate from a laptop with the captured HRV data input via an external file upload. This would be enough to validate the concept. Ultimately, the HRV heart rate gathering logic and the trained classification model would be coded as a smartphone app that could be downloaded from the Apple store or Google Play store by the average consumer.
