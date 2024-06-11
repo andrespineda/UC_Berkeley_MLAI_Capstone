@@ -33,7 +33,7 @@ If there was a way that a person could accurately and inexpensively measure thei
 
 The business objective of this project is to develop a machine learning classification model that is capable of determining whether a file of heart rate samples can be classified as being under stress or not. Heart Rate Variability (HRV) is a measurement of the variation in time between each heartbeat. By training a classification model on HRV data, we can determine whether someone is in a stressed condition or not. We will be using data labeled as stress and no stress to train the model. This process will train the classification model to recognize patterns that can be used to differentiate the two conditions. Once trained, the model will be able to classify new input files of HRV data with high accuracy, allowing us to better understand the relationship between HRV and stress.
 
-**Why is this important? **
+**Why is this important?**
 
 The use of an inexpensive wearable device to capture, classify, and present a visual indicator of a person's stress level can help reduce a serious problem faced by young adults. This tool would allow a person to self-monitor and control their stress levels without the need for expensive clinical equipment or visits to a medical facility.
 
@@ -56,7 +56,7 @@ The success criteria will be based on meeting the following measurable results:
 
 ## **Data Sources**
 
-In 2014, a study was conducted to measure the heart rate of a group under normal and stressful conditions. The data was collected by researchers at the Institute for Computing and Information Sciences at Radboud University (Koldijk, S., et.al.,2014). The dataset, referred to as SWELL, consists of heart rate signal recordings of 25 subjects doing typical office work, including writing reports, making presentations, reading e-mail and searching for information. The scientists recorded the signals during typical working stressors such as receiving unexpected emails interruptions and pressure to complete their work on time.  Luckily, the dataset has been made available for stress related research.
+In 2014, a study was conducted to measure the heart rate of a group under normal and stressful conditions. The data was collected by researchers at the Institute for Computing and Information Sciences at Radboud University (Koldijk, S., et.al.,2014). The dataset, referred to as SWELL, consists of heart rate signal recordings of 25 subjects doing typical office work, including writing reports, making presentations, reading e-mail and searching for information. The scientists recorded the signals during typical working stressors such as receiving unexpected emails interruptions and pressure to complete their work on time.  The SWELL dataset has been made available for stress related research.
 
 One of the key signals that can be used to identify stress levels is the variability of the timing between heartbeats. The root mean squared standard deviation (rMSSD) between the R-R peaks is also referred to as Heart Rate Variability (HRV.)
 
