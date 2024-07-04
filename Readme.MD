@@ -72,13 +72,13 @@ that are not easily detected. The common method <img src="https://drive.google.c
 If there was a way that a person could accurately and inexpensively measure their stress levels without going to a clinic, they could use that information as feedback so that they could learn to monitor and control their stress levels on their own.
 ## **Capstone Research Question**
 
-Can commonly available wearable devices be used to accurately self-monitor stress levels?
+### **Can commonly available wearable devices be used to accurately self-monitor stress levels?**
 
 ## **Business Objective**
 
 The business objective is to develop a machine learning classification model that is capable of determining whether heart rate samples collected from a wearable device can accurately detect stress patterns.
 <img src="https://drive.google.com/uc?export=view&id=1zFLLzvzUrRhbGLWCeul-OlYxkslJKq-0" width="100" align="right">
- The heart beat cadence, the time interval between beats, has been proven to be a reliable indicator of stress.  Counterintuitively, a predictive pattern of regular time intervals is indicative of a stress situation. A non stressful measurement will include a variation in the pattern of beats. HRV, or Heart Rate Variability, is a medical term for the measurement of the variation in time between each heartbeat.
+The heart beat cadence, the time interval between beats, has been proven to be a reliable indicator of stress.  Counterintuitively, a predictive pattern of regular time intervals is indicative of a stress situation. A non stressful measurement will include a variation in the pattern of beats. HRV, or Heart Rate Variability, is a medical term for the measurement of the variation in time between each heartbeat.
 
 Collected HRV data will be used to train a classification model. By <img src="https://drive.google.com/uc?export=view&id=1W2hHDY8_hInFz-_-raeMBFiXqphtDkjA" width="100" align="right">training a classification model  we will be able to take measurements of HRV and determine whether someone is stressed or not. We will use labeled datasets that have been captured during stressful conditions for training.  The labeled data will be used to teach the model to recognize patterns that differentiate between the two conditions. Once trained, the model will be able to classify new input files of HRV data with accuracy, allowing us to better understand the relationship between HRV and stress.
 
@@ -96,7 +96,7 @@ The parasympathetic nervous system, often referred to as the "rest and digest" s
 
 Monitoring HRV can provide important clues about an individual's stress levels and overall well-being:
 
-1. Stress detection: Lower HRV often indicates higher stress levels and reduced parasympathetic activity.<img src="https://drive.google.com/uc?export=view&id=1MsSCxt7vQmbkMZQxNFHIShIcDXqqDERH" width="300" align="right"> 
+1. Stress detection: Lower HRV often indicates higher stress levels and reduced parasympathetic activity.<img src="https://drive.google.com/uc?export=view&id=1MsSCxt7vQmbkMZQxNFHIShIcDXqqDERH" width="250" align="right"> 
 
 2. Recovery assessment: HRV can help evaluate how well the body recovers from physical or mental stressors.
 
@@ -108,40 +108,40 @@ By tracking HRV over time, individuals can gain valuable insights into stress le
 
 ## **Business Expected Results**
 
-It is expected that a classification model can be <img src="https://drive.google.com/uc?export=view&id=17T01ru8CDzj_pRrUQp9KhFqX8jnUFrzF" width="100" align="right">developed that can accurately classify stress level categories using a sampling of HRV data. Ideally, a short sampling period of one to three minutes will be sufficient for the model to classify the stress level during the sampling period.
+The goal is to create a classification model can <img src="https://drive.google.com/uc?export=view&id=17T01ru8CDzj_pRrUQp9KhFqX8jnUFrzF" width="100" align="right">accurately classify stress level categories using a short sampling of HRV data. Ideally, a short sampling period of one to three minutes will be sufficient for the model to classify the stress level during the sampling period.
 
-With the proliferation of wearble technology, such as a wrist or arm-band heart rate monitor, an Apple watch, or even a smartphone with a camera, there are new opportunities to capture HRV data. The captured data can be used by the trained classification model to assess the stress level of <img src="https://drive.google.com/uc?export=view&id=1sFKYDVTvq4tzEb3t3hqCwSWAKGXZLmwN" width="50" align="right">the person immediately after the data was captured. The results of the classification model need to be presented to the user via a easy to i-understand visual stress indicator on their smartphone. For example, a circular gauge that goes from blue for low stress to red to indicate high stress. Other similar user interfaces will be considered for ease of use and  effectiveness.
+With the proliferation of wearable technology, such as a wrist or arm-band heart rate monitor, an Apple watch, or even a smartphone with a camera, there are new opportunities to capture HRV data. The captured data can be processed by the trained classification model to assess the stress level of <img src="https://drive.google.com/uc?export=view&id=1sFKYDVTvq4tzEb3t3hqCwSWAKGXZLmwN" width="50" align="right">the person immediately after the data was captured. The results of the classification model need to be presented to the user via a easy to i-understand visual stress indicator on their smartphone. For example, a circular gauge that goes from blue for low stress to red to indicate high stress. Other similar user interfaces will be considered for ease of use and  effectiveness.
 
 
 ## **Business Success Criteria**
 
 The success criteria will be based on meeting the following measurable results:
 
-1. A classification model will developed that can take as input a one to three minute recording of a person's heart rate.
-2. Based on the data provided, the classification model will be able to classify the readings into stressful and non-stressful periods of time according to the following metrics:
+1. A classification model will be developed that can take as input a one to three minute recording of a person's heart rate.
+2. The classification model will be able to use the captured data to classify the readingsas stressful or non-stressful.  The expected accuracy of the predictions will be according to the following metrics:
 
-3. A Recall score (Sensitivity or True Positive rate) of 85%. It is important for the model to correctly identify True Positives. Being able to correctly identify stress from the reading is important so the person can take corrective action. In this problem, a high recall value is preferable than a high accuracy score.
+3. A Recall score (Sensitivity or True Positive rate) of at least 85%. It is important for the model to correctly identify True Positives. Being able to correctly identify stress from the reading is important so the person can take corrective action. In this problem, a high recall value is preferable than a high accuracy score.
 
-4. The classification model will be able to classify the data within 15 seconds. The model will eventually operate within a smartphone and it wil be important for the user to be able to get a stress reading with a short time after taking a heart rate sample.
+4. The classification model will be able to classify the data within 15 seconds. The model will eventually operate within a smartphone and it wil be important for the user to be able to get a stress reading within a short time after taking a heart rate sample.
 
 # **2. Understanding the Data**
 ## ****Data Sources****
-Developing an accurate machine learning model requires training data of heart rate signals during various target conditions, such as subjects that were relaxed or under stressful circumstances.
+Developing an accurate machine learning model requires training data of heart rate signals during stressful and non-stressful conditions.
 
-An ideal data source was identified:
+An ideal data source was identified for this project:
 
 
 **WESAD**
 
 WESAD (Wearable Stress and Affect Detection) contains data of 15 subjects during a stress-affect lab study, while wearing physiological and motion sensors. WESAD is a publicly available dataset for wearable stress and affect detection. This multimodal dataset features physiological and motion data, recorded from both a wrist- and a chest-worn device, of 15 subjects during a lab study. The following sensor modalities are included: blood volume pulse, electrocardiogram, electrodermal activity, electromyogram, respiration, body temperature, and three-axis acceleration. Moreover, the dataset bridges the gap between previous lab studies on stress and emotions, by containing three different affective states (neutral, stress, amusement). In addition, self-reports of the subjects, which were obtained using several established questionnaires, are contained in the dataset.(Schmidt, et.al., 2018)
 
- The original paper and links to download the dataset can be found via this link: https://archive.ics.uci.edu/dataset/465/wesad+wearable+stress+and+affect+detection
+The original published paper and links to download the dataset can be found via this link: https://archive.ics.uci.edu/dataset/465/wesad+wearable+stress+and+affect+detection
 
 
 ## ****Data Content****
 
 
- The WESAD dataset include Electrocardiogram (ECG) measures of various subjects during hours of stressing, amusing, relaxing, and neutral situations. Below is a table listing the ECG data field acronyms with their definitions, although a smaller subset will used:
+The WESAD dataset include Electrocardiogram (ECG) measures of various subjects during hours of stressing, amusing, relaxing, and neutral situations. Below is a table listing the ECG data field acronyms with their definitions, although a smaller subset will used:
 
 <img src="https://drive.google.com/uc?export=view&id=141L2sk49Ijk0Tp8tlpLBZcXPi6EAlPFW" width="400">
 
