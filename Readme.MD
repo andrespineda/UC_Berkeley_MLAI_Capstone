@@ -2,11 +2,10 @@
 
 The associated notebooks for this project are located within the main repository: https://github.com/andrespineda/UC_Berkeley_MLAI_Capstone
 
-* Note: the following Data prep notebook is only needed if you want to access other files within the WESAD dataset. In the Modeling, only the S2 data is used as it contains over 2M rows.
-* **Data Prep Notebook:** WESAD_Data_Preprocessing.ipynb
-
 * **Data Analysis and Modeling:** HRV_Stress_Detection.ipynb
 
+* **Data Prep Notebook: **WESAD_Data_Preprocessing.ipnb**
+The Data Prep Notebook is only needed if you need to access other files within the large WESAD dataset. In this notebook, we only used S2 data as it contains over 2M rows.
 
 ## Table of Contents
 * [Introduction](#Introduction)
