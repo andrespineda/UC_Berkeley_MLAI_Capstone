@@ -142,40 +142,7 @@ WESAD (Wearable Stress and Affect Detection) contains data of 15 subjects during
 
  The WESAD dataset include Electrocardiogram (ECG) measures of various subjects during hours of stressing, amusing, relaxing, and neutral situations. Below is a table listing the ECG data field acronyms with their definitions, although a smaller subset will used:
 
-| Acronym | Definition |
-|---------|------------|
-| MEAN_RR | Mean of RR intervals |
-| MEDIAN_RR | Median of RR intervals |
-| SDRR | Standard deviation of RR intervals |
-| RMSSD | Root mean square of successive RR interval differences |
-| SDSD | Standard deviation of successive RR interval differences |
-| SDRR_RMSSD | Ratio of SDRR to RMSSD |
-| HR | Heart rate |
-| pNN25 | Percentage of successive RR intervals that differ by more than 25 ms |
-| pNN50 | Percentage of successive RR intervals that differ by more than 50 ms |
-| SD1 | Poincaré plot standard deviation perpendicular to the line of identity |
-| SD2 | Poincaré plot standard deviation along the line of identity |
-| KURT | Kurtosis of RR intervals |
-| SKEW | Skewness of RR intervals |
-| MEAN_REL_RR | Mean of relative RR intervals |
-| MEDIAN_REL_RR | Median of relative RR intervals |
-| SDRR_REL_RR | Standard deviation of relative RR intervals |
-| RMSSD_REL_RR | Root mean square of successive differences of relative RR intervals |
-| SDSD_REL_RR | Standard deviation of successive differences of relative RR intervals |
-| SDRR_RMSSD_REL_RR | Ratio of SDRR to RMSSD for relative RR intervals |
-| KURT_REL_RR | Kurtosis of relative RR intervals |
-| SKEW_REL_RR | Skewness of relative RR intervals |
-| VLF | Very low frequency power |
-| VLF_PCT | Very low frequency power as a percentage of total power |
-| LF | Low frequency power |
-| LF_PCT | Low frequency power as a percentage of total power |
-| LF_NU | Low frequency power in normalized units |
-| HF | High frequency power |
-| HF_PCT | High frequency power as a percentage of total power |
-| HF_NU | High frequency power in normalized units |
-| TP | Total power |
-| LF_HF | Ratio of low frequency to high frequency power |
-| HF_LF | Ratio of high frequency to low frequency power |
+<img src="https://drive.google.com/uc?export=view&id=141L2sk49Ijk0Tp8tlpLBZcXPi6EAlPFW" width="200">
 
 ## ****Data Sample****
 
@@ -188,7 +155,7 @@ The data is labeled in three categories: Baseline (no stress), Stress, an Amusem
 
 Below is a sample of the ECG signal from this data:
 
-<img src="https://drive.google.com/uc?export=view&id=1b099kPnzgVwOsjYIITwKOK91UfO2YK0U" width="500">
+<img src="https://drive.google.com/uc?export=view&id=1b099kPnzgVwOsjYIITwKOK91UfO2YK0U" width="300">
 
 
 ## ****Data Prep****
