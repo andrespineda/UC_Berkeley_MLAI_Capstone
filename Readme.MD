@@ -206,11 +206,11 @@ The data is then cleaned of outliers, reformatted, and split into Training, Test
 # **4. Modeling**
 
 Modeling consists of several steps:
-* **Establish a baseline with a simple model.
-* **Select a series of models that will be compared to the baseline.
-* **Train the models and compare accuracy results.
-* **Tune the hyperparameters and rerun to improve the performance.
-* **Finally, evaluate the Precision, Recall, and F1 scores so we can select the best model.
+* **Establish a baseline with a simple model.**
+* **Select a series of models that will be compared to the baseline.**
+* **Train the models and compare accuracy results.**
+* **Tune the hyperparameters and rerun to improve the performance.**
+* **Finally, evaluate the Precision, Recall, and F1 scores so we can select the best model.**
 
 <img src="https://drive.google.com/uc?export=view&id=1pEGYkeeU1Km40oB6aKgYwNqIGOlrnrMF" width="800" >
 
