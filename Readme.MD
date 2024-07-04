@@ -182,6 +182,11 @@ Below is a sample plot showing the identification of the peaks.
 
 <img src="https://drive.google.com/uc?export=view&id=11LCMYb-TeIgD1Nn0l6MDdrHRMJcFG9wJ" width="600" >
 
+And here is an isolated heartbeat from the selected subject's data.
+
+<img src="https://drive.google.com/uc?export=view&id=1JY8urcxphcBrVT9UIbG5dNaaNhPPgiZE" width="400" >
+
+
 #### **Calculate the Interbeat "RR" Interval**
 Now that the peaks are identified and the heart beat wave is stationary, we can calculate the distribution of RR Intervals. The RR Intervals are the distance between the peaks.
 
