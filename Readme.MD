@@ -96,7 +96,7 @@ The parasympathetic nervous system, often referred to as the "rest and digest" s
 
 Monitoring HRV can provide important clues about an individual's stress levels and overall well-being:
 
-1. Stress detection: Lower HRV often indicates higher stress levels and reduced parasympathetic activity.<img src="https://drive.google.com/uc?export=view&id=1MsSCxt7vQmbkMZQxNFHIShIcDXqqDERH" width="400" align="right"> 
+1. Stress detection: Lower HRV often indicates higher stress levels and reduced parasympathetic activity.<img src="https://drive.google.com/uc?export=view&id=1MsSCxt7vQmbkMZQxNFHIShIcDXqqDERH" width="300" align="right"> 
 
 2. Recovery assessment: HRV can help evaluate how well the body recovers from physical or mental stressors.
 
