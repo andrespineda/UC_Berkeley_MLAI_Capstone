@@ -198,7 +198,7 @@ Data preparation is a key step in the data analysis process, laying the foundati
 Below is the process that will be used in this project:
 
 
-<img src="https://drive.google.com/uc?export=view&id=1o5_aqAuQWl_M5e7BRnIiHL_1m2vwR63x" width="500" >
+<img src="https://drive.google.com/uc?export=view&id=1o5_aqAuQWl_M5e7BRnIiHL_1m2vwR63x" width="800" >
 
 
 ## ****Heart Rate Variability****
@@ -228,7 +228,7 @@ Another useful plotting method is to use a Poincaré Plot. This plot compares ea
 # **4. Modeling**
 
 Modeling consists of several steps: splitting the data into training and test sets, selecting the models to be tested, choosing the hyperparameters, and executing a grid search pipeline. After the pipeline completes, the scores of the modeles are evaluated and a final model/configuration is selected.
-<img src="https://drive.google.com/uc?export=view&id=1pEGYkeeU1Km40oB6aKgYwNqIGOlrnrMF" width="500" >
+<img src="https://drive.google.com/uc?export=view&id=1pEGYkeeU1Km40oB6aKgYwNqIGOlrnrMF" width="800" >
 
 For this project the pipeline will include the following model classifiers:
 
