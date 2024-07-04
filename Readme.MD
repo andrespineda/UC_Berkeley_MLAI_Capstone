@@ -221,9 +221,9 @@ Below is a plot of the distribution of RR intervals in the dataset.  We must eli
 
 <img src="https://drive.google.com/uc?export=view&id=1SBdilIaPJvgaIPsAkfyhG8jhMVXoY_Sr"  width= "200">
 
-Another useful plotting method is to use a Poincare Plot. This plot compares each RR interval from the next and plots it as a 2 dimensional plot.
+Another useful plotting method is to use a Poincaré Plot. This plot compares each RR interval with the previous and plots the result as a 2 dimensional plot.
 
-<img src="https://drive.google.com/uc?export=view&id=1A-ZgRLHq0WyrSEjNqdetCvF0NFXbgGL_" >
+<img src="https://drive.google.com/uc?export=view&id=1A-ZgRLHq0WyrSEjNqdetCvF0NFXbgGL_" width= "200" >
 
 # **4. Modeling**
 
