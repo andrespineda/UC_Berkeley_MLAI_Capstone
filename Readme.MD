@@ -181,7 +181,7 @@ WESAD (Wearable Stress and Affect Detection) contains data of 15 subjects during
 
 The selected data for this project consists of **2.1M rows** of ECG and related data elements.
 
-The ration of Stressed to non-stressed is depicetd by the following pie cart:
+The data is labeled in three categories: Baseline (no stress), Stress, an Amusement or Happy as depicetd by the following pie cart:
 
 <img src="https://drive.google.com/uc?export=view&id=1-bJA4DtNO3UYlw6q7LrywquHg5aiiqKQ" width="200">
 
@@ -190,7 +190,6 @@ Below is a sample of the ECG signal from this data:
 
 <img src="https://drive.google.com/uc?export=view&id=1b099kPnzgVwOsjYIITwKOK91UfO2YK0U" width="500">
 
-The data is complex and there are too many variables to work with. Below is a small sample of the dataset:
 
 ## ****Data Prep****
 
