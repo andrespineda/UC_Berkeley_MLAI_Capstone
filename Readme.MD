@@ -38,7 +38,7 @@ to data analysis involves six major steps as outlined below:
     setting up a plan to proceed.
 
 2. **Understanding the Data:** In this phase, data is collected from various
-    sources, its format and type are determined, and the data is profiled.
+    sources (WESAD was selected), its format and type are determined, and the data is profiled.
     Tasks include exploring the data, describing it, and ensuring its
     quality, accuracy, and validity.
 
@@ -47,7 +47,7 @@ identify patterns aligned with business insights.
 
 4. **Modeling:** The modeling phase involves selecting modeling techniques,
     generating test scenarios for validation, building various models, and
-    assessing them to ensure alignment with business objectives
+    assessing them to ensure alignment with business objectives.
 
 5. **Evaluation:** During this phase, the results of the models are evaluated
     against business intentions. Multiple models are assessed to determine
@@ -63,28 +63,29 @@ identify patterns aligned with business insights.
 ## **Background**
 
 
-Research shows that stress is a major issue for<img src="https://drive.google.com/uc?export=view&id=1lhWuOVyyRi0MuDxuDNNO4S6o6ny7XZ8s" width="200" align="right"> young adults. A 2022 survey found that young adults aged 18–24 reported 5.8 out of 10 stress-related symptoms, compared to a 3.8 score of those aged 65 and older. Stress is also linked to many health issues, including heart disease, cancer, lung ailments, accidents, cirrhosis of the liver, and suicide (Statista, 2023).
+Research shows that stress is a major issue for<img src="https://drive.google.com/uc?export=view&id=1lhWuOVyyRi0MuDxuDNNO4S6o6ny7XZ8s" width="200" align="right"> young adults. A 2022 survey found that young adults aged 18–24 reported 5.8 out of 10 in stress-related symptoms, compared to a 3.8 score of those aged 65 and older. Stress is also linked to many health issues, including heart disease, cancer, lung ailments, accidents, cirrhosis of the liver, and suicide (Statista, 2023).
 
-Some indications of the ill effects of stress can be visually identified without special equipment, but sustained long term stress may cause internal issues
-that are not easily detected. The common method <img src="https://drive.google.com/uc?export=view&id=1j8YOQrziHwoCIfbzYkQ2XteYd3isumgK" width="80" align="right">of measuring underlying stress conditions requires a trip to a medical facility where expensive medical equipment is used by trained clinicians.
+Some indications of the ill effects of stress can be visually identified without special equipment, but sustained long term stress may cause internal issues that are not easily detected. The common method <img src="https://drive.google.com/uc?export=view&id=1j8YOQrziHwoCIfbzYkQ2XteYd3isumgK" width="80" align="right">of measuring underlying stress conditions requires a trip to a medical facility where expensive medical equipment is used by trained clinicians.
 
-If there was a way that a person could accurately and inexpensively measure their stress levels without going to a clinic, they could use that information as feedback so that they could learn to monitor and control their stress levels on their own.
+**Challenge:** If there was a way that a person could accurately and inexpensively measure their stress levels without going to a clinic, they could use that information as feedback so that they could learn to monitor and control their stress levels on their own.
 ## **Capstone Research Question**
 
-### ***Can commonly available wearable devices be used to accurately self-monitor stress levels?***
+***Can commonly available wearable devices be used to accurately self-monitor stress levels?***
 
 ## **Business Objective**
 
 The business objective is to develop a machine learning classification model that is capable of determining whether heart rate samples collected from a wearable device can accurately detect stress patterns.
 <img src="https://drive.google.com/uc?export=view&id=1zFLLzvzUrRhbGLWCeul-OlYxkslJKq-0" width="100" align="right">
-The heart beat cadence, the time interval between beats, has been proven to be a reliable indicator of stress.  Counterintuitively, a predictive pattern of regular time intervals is indicative of a stress situation. A non stressful measurement will include a variation in the pattern of beats. HRV, or Heart Rate Variability, is a medical term for the measurement of the variation in time between each heartbeat.
+The heart beat cadence, the time interval between beats, has been proven to be a reliable indicator of stress. 
 
-Collected HRV data will be used to train a classification model. By <img src="https://drive.google.com/uc?export=view&id=1W2hHDY8_hInFz-_-raeMBFiXqphtDkjA" width="100" align="right">training a classification model  we will be able to take measurements of HRV and determine whether someone is stressed or not. We will use labeled datasets that have been captured during stressful conditions for training.  The labeled data will be used to teach the model to recognize patterns that differentiate between the two conditions. Once trained, the model will be able to classify new input files of HRV data with accuracy, allowing us to better understand the relationship between HRV and stress.
+Counterintuitively, a predictive pattern of regular time intervals is indicative of a stressful situation. A non stressful measurement will include a variation in the pattern of beats.
+
+HRV, or Heart Rate Variability, is a medical term for the measurement of the variation in time between each heartbeat. Collected HRV data will be used to train a classification model. By <img src="https://drive.google.com/uc?export=view&id=1W2hHDY8_hInFz-_-raeMBFiXqphtDkjA" width="100" align="right">training a classification model  we will be able to take measurements of HRV and determine whether someone is stressed or not. We will use labeled datasets that have been captured during stressful and non stressful conditions for training.  The labeled data will be used to teach the model to recognize patterns that differentiate between the two conditions. Once trained, the model will be able to classify new input files of HRV data, allowing us to better understand the relationship between HRV and stress.
 
 ## **Why is this important?**
 
 <img src="https://drive.google.com/uc?export=view&id=1xofI99rMfYiWtCE8PSsJXvzjCfgqjZn3" width="100" align="right">
-The use of an inexpensive wearable device to capture, classify, and present a visual indicator of a person's stress level can help reduce a serious problem faced by young adults. This tool would allow a person to self-monitor and control their stress levels without the need for expensive clinical equipment or visits to a medical facility.
+Using an inexpensive wearable device to capture, classify, and present a visual indicator of a person's stress level can help reduce a serious problem faced by young adults. This tool would allow a person to self-monitor and control their stress levels without the need for expensive clinical equipment or visits to a medical facility.
 
 ## **How can this be achieved?**
 
@@ -107,9 +108,9 @@ By tracking HRV over time, individuals can gain valuable insights into stress le
 
 ## **Business Expected Results**
 
-The goal is to create a classification model can <img src="https://drive.google.com/uc?export=view&id=17T01ru8CDzj_pRrUQp9KhFqX8jnUFrzF" width="100" align="right">accurately classify stress level categories using a short sampling of HRV data. Ideally, a short sampling period of one to three minutes will be sufficient for the model to classify the stress level during the sampling period.
+The goal is to create a classification model can <img src="https://drive.google.com/uc?export=view&id=17T01ru8CDzj_pRrUQp9KhFqX8jnUFrzF" width="100" align="right">accurately classify stress level categories using a short sampling of HRV data. Ideally, a sampling period of one to three minutes will be sufficient for the model to classify the stress level during the sampling period.
 
-With the proliferation of wearable technology, such as a wrist or arm-band heart rate monitor, an Apple watch, or even a smartphone with a camera, there are new opportunities to capture HRV data. The captured data can be processed by the trained classification model to assess the stress level of <img src="https://drive.google.com/uc?export=view&id=1sFKYDVTvq4tzEb3t3hqCwSWAKGXZLmwN" width="50" align="right">the person immediately after the data was captured. The results of the classification model need to be presented to the user via a easy to i-understand visual stress indicator on their smartphone. For example, a circular gauge that goes from blue for low stress to red to indicate high stress. Other similar user interfaces will be considered for ease of use and  effectiveness.
+With the proliferation of wearable technology, such as an Apple watch, or even a smartphone with a camera, there are new opportunities to capture HRV data. The captured data can be processed by the trained classification model to assess the stress level of <img src="https://drive.google.com/uc?export=view&id=1sFKYDVTvq4tzEb3t3hqCwSWAKGXZLmwN" width="50" align="right">the person immediately after the data was captured. The results of the classification model need to be presented to the user via a easy-to-understand visual stress indicator on their smartphone. For example, a circular gauge that goes from blue for low stress to red to indicate high stress. Other similar user interfaces will be considered for ease of use and effectiveness.
 
 
 ## **Business Success Criteria**
@@ -117,11 +118,11 @@ With the proliferation of wearable technology, such as a wrist or arm-band heart
 The success criteria will be based on meeting the following measurable results:
 
 1. A classification model will be developed that can take as input a one to three minute recording of a person's heart rate.
-2. The classification model will be able to use the captured data to classify the readingsas stressful or non-stressful.  The expected accuracy of the predictions will be according to the following metrics:
+2. The classification model will be able to use the captured data to classify the readings as stressful or non-stressful.  
 
-3. A Recall score (Sensitivity or True Positive rate) of at least 85%. It is important for the model to correctly identify True Positives. Being able to correctly identify stress from the reading is important so the person can take corrective action. In this problem, a high recall value is preferable than a high accuracy score.
+3. The expected accuracy of the predictions will be a recall score (sensitivity or true-positive rate) of at least 85%. It is important for the model to correctly identify true-positives so that the person can take corrective action. In this problem, a high recall value is preferable than a high accuracy score.
 
-4. The classification model will be able to classify the data within 15 seconds. The model will eventually operate within a smartphone and it wil be important for the user to be able to get a stress reading within a short time after taking a heart rate sample.
+4. The classification model will be able to classify within 15 seconds. The model will eventually operate within a smartphone and it wil be important for the user to be able to get a stress reading within a short time after taking a heart rate sample.
 
 # **2. Understanding the Data**
 ## ****Data Sources****
@@ -140,7 +141,9 @@ The original published paper and links to download the dataset can be found via 
 ## ****Data Content****
 
 
-The WESAD dataset include Electrocardiogram (ECG) measures of various subjects during hours of stressing, amusing, relaxing, and neutral situations. Below is a table listing the ECG data field acronyms with their definitions, although a smaller subset will used:
+The WESAD dataset include Electrocardiogram (ECG) measures of various subjects during hours of stressing, amusing, relaxing, and neutral situations.
+
+Below is a table listing the ECG data field acronyms with their definitions, although a smaller subset will used in the training:
 
 <img src="https://drive.google.com/uc?export=view&id=141L2sk49Ijk0Tp8tlpLBZcXPi6EAlPFW" width="400">
 
@@ -148,7 +151,7 @@ The WESAD dataset include Electrocardiogram (ECG) measures of various subjects d
 
 The selected data for this project consists of **2.1M rows** of ECG and related data elements.
 
-The data is labeled in three categories: Baseline (no stress), Stress, an Amusement or Happy as depicetd by the following pie cart:
+The data's target variable is labeled in three categories: Baseline (no stress), Stress, or Amusement(Happy) as depicetd by the following pie cart:
 
 <img src="https://drive.google.com/uc?export=view&id=1-bJA4DtNO3UYlw6q7LrywquHg5aiiqKQ" width="200">
 
@@ -170,7 +173,7 @@ Below is the process that will be used in this project:
 
 ## **Heart Rate Variability**
 
-From this inital analysis of the data, we must isolate the heart beats. Our goal is to detrend the ECG time series data and then apply stationary algorythms to isolate the individual wave forms.
+From this inital analysis of the data, we must isolate the heart beats. Our goal is to detrend the ECG time series data and then apply stationary algorithms to isolate the individual wave forms.
 
 #### **Identify the Peaks**
 
@@ -181,7 +184,7 @@ Below is a sample plot showing the identification of the peaks.
 
 <img src="https://drive.google.com/uc?export=view&id=11LCMYb-TeIgD1Nn0l6MDdrHRMJcFG9wJ" width="600" >
 
-And here is an isolated heartbeat from the selected subject's data.
+And here is an isolated heartbeat from the selected data.
 
 <img src="https://drive.google.com/uc?export=view&id=1JY8urcxphcBrVT9UIbG5dNaaNhPPgiZE" width="400" >
 
