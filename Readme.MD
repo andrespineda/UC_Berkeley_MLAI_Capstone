@@ -210,7 +210,7 @@ For this project the pipeline will include the following model classifiers:
 
 The following parameters will be used for the training and evaluation.
 
-<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="200" >
+<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="400" >
 
 # **5. Evaluation**
 
