@@ -11,11 +11,12 @@ The associated notebooks for this project are located within the main repository
 ## Table of Contents
 * [Introduction](#Introduction)
 * [Methodology](#Methodology)
-* [Understanding the Business](#Understanding-the-Business)
-* [Understanding the Data](#Understanding-the-Data)
-* [Data Preparation](#Data-Preparation)
-* [Modeling](#Modeling)
-* [Evaluation](#Evaluation)
+* [1. Understanding the Business](#Understanding-the-Business)
+* [2. Understanding the Data](#Understanding-the-Data)
+* [3. Data Preparation](#Data-Preparation)
+* [4. Modeling](#Modeling)
+* [5. Evaluation](#Evaluation)
+* [6. Deployment](#Deployment)
 * [References](#References)
 
 
@@ -179,7 +180,7 @@ Identifying the peaks is critical to calulating the inter-beat interval. It must
 Below is a sample plot showing the identification of the peaks.
 
 
-<img src="https://drive.google.com/uc?export=view&id=11LCMYb-TeIgD1Nn0l6MDdrHRMJcFG9wJ" >
+<img src="https://drive.google.com/uc?export=view&id=11LCMYb-TeIgD1Nn0l6MDdrHRMJcFG9wJ" width="300" >
 
 
 Now that the peaks are identified and the heart beat wave is stationary, we can calculate the distribution of RR Intervals. The RR Intervals are the distance between the peaks.
@@ -209,15 +210,18 @@ The following parameters will be used for the training and evaluation"
 
 # **5. Evaluation**
 
-** In Progress**
+**In Progress**
+The modeling has been running for hours. When it completes, the results will be updated.
 
 ### **Evaluate Model Results**
 
-** In Progress**
+**In Progress**
+The modeling has been running for hours. When it completes, the results will be updated.
 
 ### **Model Results vs Business Criteria**
 
-
+**In Progress**
+The modeling has been running for hours. When it completes, the results will be updated.
 
 ### **Next Steps**
 
@@ -234,7 +238,7 @@ In future releases the model will be encoded dircty into the smartphone and the 
 
 Below are images of the app that has been developed for this purpose.
 
-<img src="https://drive.google.com/uc?export=view&id=1IBDnHMRPgRDuc7QwmsfKKAyLXkv7_Npr" width="800" >
+<img src="https://drive.google.com/uc?export=view&id=1IBDnHMRPgRDuc7QwmsfKKAyLXkv7_Npr" width="600" >
 
 
 
