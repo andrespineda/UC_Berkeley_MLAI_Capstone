@@ -109,8 +109,7 @@ By tracking HRV over time, individuals can gain valuable insights into stress le
 
 It is expected that a classification model can be <img src="https://drive.google.com/uc?export=view&id=17T01ru8CDzj_pRrUQp9KhFqX8jnUFrzF" width="100" align="right">developed that can accurately classify stress level categories using a sampling of HRV data. Ideally, a short sampling period of one to three minutes will be sufficient for the model to classify the stress level during the sampling period.
 
-With the proliferation of wearble technology, such as a wrist or arm-band heart rate monitor, an Apple watch, or even a smartphone with a
-camera, there are new opportunities to capture HRV data. The captured data can be used by the trained classification model to assess the stress level of <img src="https://drive.google.com/uc?export=view&id=1sFKYDVTvq4tzEb3t3hqCwSWAKGXZLmwN" width="50" align="right">the person immediately after the data was captured. The results of the classification model need to be presented to the user via a easy to i-understand visual stress indicator on their smartphone. For example, a circular gauge that goes from blue for low stress to red to indicate high stress. Other similar user interfaces will be considered for ease of use and  effectiveness.
+With the proliferation of wearble technology, such as a wrist or arm-band heart rate monitor, an Apple watch, or even a smartphone with a camera, there are new opportunities to capture HRV data. The captured data can be used by the trained classification model to assess the stress level of <img src="https://drive.google.com/uc?export=view&id=1sFKYDVTvq4tzEb3t3hqCwSWAKGXZLmwN" width="50" align="right">the person immediately after the data was captured. The results of the classification model need to be presented to the user via a easy to i-understand visual stress indicator on their smartphone. For example, a circular gauge that goes from blue for low stress to red to indicate high stress. Other similar user interfaces will be considered for ease of use and  effectiveness.
 
 
 ## **Business Success Criteria**
@@ -179,6 +178,13 @@ WESAD (Wearable Stress and Affect Detection) contains data of 15 subjects during
 | HF_LF | Ratio of high frequency to low frequency power |
 
 ## ****Data Sample****
+
+The selected data for this project consists of **2.1M rows** of ECG and related data elements.
+
+The ration of Stressed to non-stressed is depicetd by the following pie cart:
+
+<img src="https://drive.google.com/uc?export=view&id=1-bJA4DtNO3UYlw6q7LrywquHg5aiiqKQ" width="200">
+
 
 Below is a sample of the ECG signal from this data:
 
