@@ -225,26 +225,28 @@ Below, we create models with different hyperperameters.
 * Random Forest
 * Support Vector Decomposition (SVD)
 
-The following parameters will be used for the training and evaluation.
+The following hyperparameters will be used for the training and evaluation.
 
-<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="300" >
+<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="500" >
 
 And here are the results of training and testing these models with the hyperparameters.
 
-<img src="https://drive.google.com/uc?export=view&id=1Snzgk4qoXVetWy7brNiOZI1uhuH8eRv_" width= "300" >
+<img src="https://drive.google.com/uc?export=view&id=1Snzgk4qoXVetWy7brNiOZI1uhuH8eRv_" width= "600" >
 
 
 # **5. Evaluation**
 
 For the evalution, we will perform another run that will produce Precision, Recall, and F1 scores.
 
-<img src="https://drive.google.com/uc?export=view&id=1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF" width="300" >
-
 The Decision Tree model came up with the best scores of almost **97%** across the board as can be seen in the table below.
+
+<img src="https://drive.google.com/uc?export=view&id=1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF" width="600" >
+
+
 
 ### **Model Results vs Business Criteria**
 
-The Decesion Tree model clearly met all of our business performance requirements.
+The Decision Tree model clearly met all of our business performance requirements.
 
 
 ### **Next Steps**
