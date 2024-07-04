@@ -4,7 +4,7 @@ The associated notebooks for this project are located within the main repository
 
 * **Data Analysis and Modeling:** HRV_Stress_Detection.ipynb
 
-* **Data Prep Notebook: **WESAD_Data_Preprocessing.ipnb**
+* **Data Prep Notebook:** WESAD_Data_Preprocessing.ipnb
 The Data Prep Notebook is only needed if you need to access other files within the large WESAD dataset. In this notebook, we only used S2 data as it contains over 2M rows.
 
 ## Table of Contents
