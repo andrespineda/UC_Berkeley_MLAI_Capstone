@@ -156,7 +156,7 @@ The data is labeled in three categories: Baseline (no stress), Stress, an Amusem
 
 Below is a sample of the ECG signal from this data:
 
-<img src="https://drive.google.com/uc?export=view&id=1b099kPnzgVwOsjYIITwKOK91UfO2YK0U" width="300">
+<img src="https://drive.google.com/uc?export=view&id=1b099kPnzgVwOsjYIITwKOK91UfO2YK0U" width="400">
 
 
 ## ****Data Prep****
@@ -173,25 +173,28 @@ Below is the process that will be used in this project:
 
 From this inital analysis of the data, we must isolate the heart beats. Our goal is to detrend the ECG time series data and then apply stationary algorythms to isolate the individual wave forms.
 
-### **Identify the Peaks**
+#### **Identify the Peaks**
 
 Identifying the peaks is critical to calulating the inter-beat interval. It must be calculated with accuracy as the variation between the beats is used to determine the HRV values.
 
 Below is a sample plot showing the identification of the peaks.
 
 
-<img src="https://drive.google.com/uc?export=view&id=11LCMYb-TeIgD1Nn0l6MDdrHRMJcFG9wJ" width="300" >
+<img src="https://drive.google.com/uc?export=view&id=11LCMYb-TeIgD1Nn0l6MDdrHRMJcFG9wJ" width="400" >
 
-
+#### **Calculate the Interbeat "RR" Interval**
 Now that the peaks are identified and the heart beat wave is stationary, we can calculate the distribution of RR Intervals. The RR Intervals are the distance between the peaks.
 
 Below is a plot of the distribution of RR intervals in the dataset.  We must eliminate the outliers and then use the distribution to begin classification based on the labeled dataset.
 
-<img src="https://drive.google.com/uc?export=view&id=1SBdilIaPJvgaIPsAkfyhG8jhMVXoY_Sr"  width= "200">
+<img src="https://drive.google.com/uc?export=view&id=1SBdilIaPJvgaIPsAkfyhG8jhMVXoY_Sr"  width= "300">
 
 Another useful plotting method is to use a Poincaré Plot. This plot compares each RR interval with the previous and plots the result as a 2 dimensional plot.
 
-<img src="https://drive.google.com/uc?export=view&id=1A-ZgRLHq0WyrSEjNqdetCvF0NFXbgGL_" width= "200" >
+<img src="https://drive.google.com/uc?export=view&id=1A-ZgRLHq0WyrSEjNqdetCvF0NFXbgGL_" width= "300" >
+
+#### **Prepare the Data for Modeling**
+The data is then cleaned of outliers, reformatted, and spilt into Training, Test, and Validation sets.
 
 # **4. Modeling**
 
