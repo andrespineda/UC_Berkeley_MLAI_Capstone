@@ -73,7 +73,7 @@ If there was a way that a person could accurately and inexpensively measure thei
 
 Can commonly available wearable devices be used to accurately self-monitor stress levels?
 
-##**Business Objective**
+## **Business Objective**
 
 The business objective is to develop a machine learning classification model that is capable of determining whether heart rate samples collected from a wearable device can accurately detect stress patterns.
 <img src="https://drive.google.com/uc?export=view&id=1zFLLzvzUrRhbGLWCeul-OlYxkslJKq-0" width="100" align="right">
@@ -222,7 +222,15 @@ Another useful plotting method is to use a Poincare Plot. This plot compares eac
 
 # **4. Modeling**
 
-** In Progress**
+The modeling of this project includes building a pipeline that will include the following model classifiers:
+
+* Logistic Regression as a baseline
+* K-Nearest Neighbor (KNN)
+* Random Forest
+* Support Vector Decomposition (SVD)
+
+The following parameters will be used for the training and evaluation"
+<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" >
 
 # **5. Evaluation**
 
