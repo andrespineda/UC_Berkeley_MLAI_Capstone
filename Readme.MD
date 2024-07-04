@@ -211,7 +211,12 @@ Not a very good score, but now we will now go through the process of improving t
 ### ***Model Comparisons***
 We will now run several other models (with minimal tuning) and compare their performance to the Logistic Regression model. We will try a basic KNN algorithm, Decision Tree, and SVM model. Using the default settings for each of the models, we will fit and score each. We will compare the fit time of each of the models.
 
-The scores for these models is as folows.
+* Logistic Regression as a baseline
+* K-Nearest Neighbor (KNN)
+* Decision Tree
+* Support Vector Decomposition (SVD)
+
+The scores for these models are as follows.
 
 <img src="https://drive.google.com/uc?export=view&id=1_-LhDLZzszOI4xXSkwoTK4fz_ol-KplJ" width= "400" >
 
@@ -220,18 +225,13 @@ The scores for these models is as folows.
 Now that we have some basic models on the board, we want to try to improve these.
 Below, we create models with different hyperperameters. 
 
-* Logistic Regression as a baseline
-* K-Nearest Neighbor (KNN)
-* Random Forest
-* Support Vector Decomposition (SVD)
-
 The following hyperparameters will be used for the training and evaluation.
 
-<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="500" >
+<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="600" >
 
 And here are the results of training and testing these models with the hyperparameters.
 
-<img src="https://drive.google.com/uc?export=view&id=1Snzgk4qoXVetWy7brNiOZI1uhuH8eRv_" width= "600" >
+<img src="https://drive.google.com/uc?export=view&id=1Snzgk4qoXVetWy7brNiOZI1uhuH8eRv_" width= "700" >
 
 
 # **5. Evaluation**
@@ -240,7 +240,7 @@ For the evalution, we will perform another run that will produce Precision, Reca
 
 The Decision Tree model came up with the best scores of almost **97%** across the board as can be seen in the table below.
 
-<img src="https://drive.google.com/uc?export=view&id=1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF" width="600" >
+<img src="https://drive.google.com/uc?export=view&id=1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF" width="500" >
 
 
 
