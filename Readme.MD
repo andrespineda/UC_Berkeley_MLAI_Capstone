@@ -156,7 +156,7 @@ The data is labeled in three categories: Baseline (no stress), Stress, an Amusem
 
 Below is a sample of the ECG signal from this data:
 
-<img src="https://drive.google.com/uc?export=view&id=1b099kPnzgVwOsjYIITwKOK91UfO2YK0U" width="400">
+<img src="https://drive.google.com/uc?export=view&id=1b099kPnzgVwOsjYIITwKOK91UfO2YK0U" width="500">
 
 
 ## ****Data Prep****
