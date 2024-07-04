@@ -72,7 +72,7 @@ that are not easily detected. The common method <img src="https://drive.google.c
 If there was a way that a person could accurately and inexpensively measure their stress levels without going to a clinic, they could use that information as feedback so that they could learn to monitor and control their stress levels on their own.
 ## **Capstone Research Question**
 
-### **Can commonly available wearable devices be used to accurately self-monitor stress levels?**
+### ***Can commonly available wearable devices be used to accurately self-monitor stress levels?***
 
 ## **Business Objective**
 
