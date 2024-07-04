@@ -205,18 +205,20 @@ Initially, we want to establish a Baseline model. A simple model that will set a
 
 ### ***A Simple Baseline Model***
 
-For the baseline model we used a Logistic Regression and aceived an accuracy score of **66%**.
-Not a very good score, but we will now go through the process of improving the model using vaious hyper parameters.
+For the baseline model we used a Logistic Regression model and achieved an accuracy score of **66%**.
+Not a very good score, but now we will now go through the process of improving the model using vaious hyper parameters.
 
 ### ***Model Comparisons***
-Now, we aim to compare the performance of the Logistic Regression model to our KNN algorithm, Decision Tree, and SVM models. Using the default settings for each of the models, we will fit and score each. We will compare the fit time of each of the models.
+We will now run several other models (with minimal tuning) and compare their performance to the Logistic Regression model. We will try a basic KNN algorithm, Decision Tree, and SVM model. Using the default settings for each of the models, we will fit and score each. We will compare the fit time of each of the models.
 
-<img src="https://drive.google.com/uc?export=view&id=1_-LhDLZzszOI4xXSkwoTK4fz_ol-KplJ" width= "300" >
+The scores for these models is as folows.
+
+<img src="https://drive.google.com/uc?export=view&id=1_-LhDLZzszOI4xXSkwoTK4fz_ol-KplJ" width= "400" >
 
 ### Improving the Model
 
 Now that we have some basic models on the board, we want to try to improve these.
-Below, we create models with various hyperperameters. We will select the best combination of hyperparameters for each classification model.
+Below, we create models with different hyperperameters. 
 
 * Logistic Regression as a baseline
 * K-Nearest Neighbor (KNN)
@@ -225,40 +227,38 @@ Below, we create models with various hyperperameters. We will select the best co
 
 The following parameters will be used for the training and evaluation.
 
-<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="200" >
+<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="300" >
 
-And here are the results of using those prameters.
+And here are the results of training and testing these models with the hyperparameters.
 
-<img src="https://drive.google.com/uc?export=view&id=1Snzgk4qoXVetWy7brNiOZI1uhuH8eRv_" width= "200" >
-
-
+<img src="https://drive.google.com/uc?export=view&id=1Snzgk4qoXVetWy7brNiOZI1uhuH8eRv_" width= "300" >
 
 
 # **5. Evaluation**
 
-For the evalution, we will compare the Precision, Recall, and F1 scores.
+For the evalution, we will perform another run that will produce Precision, Recall, and F1 scores.
 
-<img src="https://drive.google.com/uc?export=view&id=1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF" width="200" >
+<img src="https://drive.google.com/uc?export=view&id=1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF" width="300" >
 
+The Decision Tree model came up with the best scores of almost **97%** across the board as can be seen in the table below.
 
 ### **Model Results vs Business Criteria**
 
+The Decesion Tree model clearly met all of our business performance requirements.
 
 
 ### **Next Steps**
 
-We could continue to experiment with the hyperparameters to get a better result. At some point, you reach a score that meets your needs without further refinement. Factors such as time or computing resource constraints may dictate how much effort is expended to achieve a near perfecet model.
-<p></p>
-Another major decision is whether the model is ready for productional use. In this case we will ue the trained model to determione if it can directly classify a person's stress level from a minute's worth of data taken from a wearble device. 
+We will continue to experiment with the hyperparameters to get a better result. Also, we will be learning new modeling techniques and those will be tested against the current models. At some point, one reaches a score that meets the business needs without further refinement. Factors such as time or computing resource constraints may dictate how much effort is expended to achieve a better and better model.
 
 # **6. Deployment**
-In the deployment stage, the model is put into operational use. In this case, the model will be used to process data collected from a mobile app that is under development. The app will use Photoplethysmography (PPG)to capture heart rate data from a person's finger. Photoplethysmography (PPG) can be effectively utilized with a smartphone camera to measure heart rate, offering a convenient and accessible method for health monitoring. The process works by detecting subtle color changes in the skin that occur with each heartbeat.
+Another major decision to be made is whether the model is ready for productional use. In this case we will use the trained model to determine if it can directly classify a person's stress level from a minute's worth of data taken from a wearble device. The plan is to use this model to process data collected from a mobile app that is currently under development. The app uses Photoplethysmography(PPG) to capture heart rate data from a person's finger. PPG has been proven to be effective within a smartphone camera to measure heart rate (De Ridder, B.,et.al., 2018). The process works by detecting subtle color changes in the skin that occur with each heartbeat.
 
-After data capture, the recording will be sent from the app to a host for processing. The model that was developein this project will read the data from the host and use the trained model to determine the state of stress.
+After data capture, the phone app user can choose to send the recording to a cloud host for processing. The model that was developed in this project will read the data from the cloud host and determine the state of stress.
 
-In future releases the model will be encoded dircty into the smartphone and the PPG data can be used to display an indicator of the level of stress.
+In future releases the model will be encoded directly into the smartphone and the PPG data will be used to display an indicator of the level of stress without having to be sent to a host.
 
-Below are images of the app that has been developed for this purpose.
+Below are images of the current state of the app. It is fully functional, but lacks some cosmetic refinements.
 
 <img src="https://drive.google.com/uc?export=view&id=1IBDnHMRPgRDuc7QwmsfKKAyLXkv7_Npr" width="600" >
 
@@ -271,6 +271,7 @@ Below are images of the app that has been developed for this purpose.
 
 * Cleveland Clinic. (2021, September 1). Heart rate variability (HRV): What it is and how you can track it. https://my.clevelandclinic.org/health/symptoms/21773-heart-rate-variability-hrv
 
+* De Ridder B, Van Rompaey B, Kampen JK, Haine S, Dilles T. (2018). Smartphone Apps Using Photoplethysmography for Heart Rate Monitoring: Meta-Analysis. JMIR Cardio. 2018 Feb 27;2(1):e4. doi: 10.2196/cardio.8802. PMID: 31758768; PMCID: PMC6834218.
 
 * Koldijk, S., Sappelli, M., Verberne, S., Neerincx, M.A., & Kraaij, W. (2014). The SWELL Knowledge Work Dataset for Stress and User Modeling Research. _Proceedings of the 16th International Conference on Multimodal Interaction_.
 
