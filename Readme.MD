@@ -205,7 +205,8 @@ For this project the pipeline will include the following model classifiers:
 * Random Forest
 * Support Vector Decomposition (SVD)
 
-The following parameters will be used for the training and evaluation"
+The following parameters will be used for the training and evaluation.
+
 <img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="200" >
 
 # **5. Evaluation**
