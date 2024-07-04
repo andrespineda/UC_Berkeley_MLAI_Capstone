@@ -199,16 +199,23 @@ Another useful plotting method is to use a Poincaré Plot. This plot compares ea
 <img src="https://drive.google.com/uc?export=view&id=1A-ZgRLHq0WyrSEjNqdetCvF0NFXbgGL_" width= "300" >
 
 #### **Prepare the Data for Modeling**
-The data is then cleaned of outliers, reformatted, and spilt into Training, Test, and Validation sets.
+The data is then cleaned of outliers, reformatted, and split into Training, Test, and Validation sets.
 
 # **4. Modeling**
 
-Modeling consists of several steps: splitting the data into training and test sets, selecting the models to be tested, choosing the hyperparameters, and executing a grid search pipeline. After the pipeline completes, the scores of the modeles are evaluated and a final model/configuration is selected.
+Modeling consists of several steps:
+* **Establish a baseline with a simple model.
+* **Select a series of models that will be compared to the baseline.
+* **Train the models and compare accuracy results.
+* **Tune the hyperparameters and rerun to improve the performance.
+* **Finally, evaluate the Precision, Recall, and F1 scores so we can select the best model.
+
 <img src="https://drive.google.com/uc?export=view&id=1pEGYkeeU1Km40oB6aKgYwNqIGOlrnrMF" width="800" >
 
-Initially, we want to establish a Baseline model. A simple model that will set a baseline score from which we will try other models fro improvement.
 
 ### ***A Simple Baseline Model***
+
+Initially, we want to establish a Baseline model. A simple model that will establish a baseline score from which we can compare to subsequent models.
 
 For the baseline model we used a Logistic Regression model and achieved an accuracy score of **66%**.
 Not a very good score, but now we will now go through the process of improving the model using vaious hyper parameters.
