@@ -201,7 +201,22 @@ The data is then cleaned of outliers, reformatted, and spilt into Training, Test
 Modeling consists of several steps: splitting the data into training and test sets, selecting the models to be tested, choosing the hyperparameters, and executing a grid search pipeline. After the pipeline completes, the scores of the modeles are evaluated and a final model/configuration is selected.
 <img src="https://drive.google.com/uc?export=view&id=1pEGYkeeU1Km40oB6aKgYwNqIGOlrnrMF" width="800" >
 
-For this project the pipeline will include the following model classifiers:
+Initially, we want to establish a Baseline model. A simple model that will set a baseline score from which we will try other models fro improvement.
+
+### ***A Simple Baseline Model***
+
+For the baseline model we used a Logistic Regression and aceived an accuracy score of **66%**.
+Not a very good score, but we will now go through the process of improving the model using vaious hyper parameters.
+
+### ***Model Comparisons***
+Now, we aim to compare the performance of the Logistic Regression model to our KNN algorithm, Decision Tree, and SVM models. Using the default settings for each of the models, we will fit and score each. We will compare the fit time of each of the models.
+
+<img src="https://drive.google.com/uc?export=view&id=1_-LhDLZzszOI4xXSkwoTK4fz_ol-KplJ" width= "300" >
+
+### Improving the Model
+
+Now that we have some basic models on the board, we want to try to improve these.
+Below, we create models with various hyperperameters. We will select the best combination of hyperparameters for each classification model.
 
 * Logistic Regression as a baseline
 * K-Nearest Neighbor (KNN)
@@ -210,22 +225,25 @@ For this project the pipeline will include the following model classifiers:
 
 The following parameters will be used for the training and evaluation.
 
-<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="400" >
+<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="200" >
+
+And here are the results of using those prameters.
+
+<img src="https://drive.google.com/uc?export=view&id=1Snzgk4qoXVetWy7brNiOZI1uhuH8eRv_" width= "200" >
+
+
+
 
 # **5. Evaluation**
 
-**In Progress**
-The modeling has been running for hours. When it completes, the results will be updated.
+For the evalution, we will compare the Precision, Recall, and F1 scores.
 
-### **Evaluate Model Results**
+<img src="https://drive.google.com/uc?export=view&id=1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF" width="200" >
 
-**In Progress**
-The modeling has been running for hours. When it completes, the results will be updated.
 
 ### **Model Results vs Business Criteria**
 
-**In Progress**
-The modeling has been running for hours. When it completes, the results will be updated.
+
 
 ### **Next Steps**
 
