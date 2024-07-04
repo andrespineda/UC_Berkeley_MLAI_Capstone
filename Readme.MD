@@ -198,7 +198,7 @@ Data preparation is a key step in the data analysis process, laying the foundati
 Below is the process that will be used in this project:
 
 
-<img src="https://drive.google.com/uc?export=view&id=1o5_aqAuQWl_M5e7BRnIiHL_1m2vwR63x" >
+<img src="https://drive.google.com/uc?export=view&id=1o5_aqAuQWl_M5e7BRnIiHL_1m2vwR63x" width="500" >
 
 
 ## ****Heart Rate Variability****
@@ -219,7 +219,7 @@ Now that the peaks are identified and the heart beat wave is stationary, we can 
 
 Below is a plot of the distribution of RR intervals in the dataset.  We must eliminate the outliers and then use the distribution to begin classification based on the labeled dataset.
 
-<img src="https://drive.google.com/uc?export=view&id=1SBdilIaPJvgaIPsAkfyhG8jhMVXoY_Sr" >
+<img src="https://drive.google.com/uc?export=view&id=1SBdilIaPJvgaIPsAkfyhG8jhMVXoY_Sr"  width= "200">
 
 Another useful plotting method is to use a Poincare Plot. This plot compares each RR interval from the next and plots it as a 2 dimensional plot.
 
@@ -227,7 +227,10 @@ Another useful plotting method is to use a Poincare Plot. This plot compares eac
 
 # **4. Modeling**
 
-The modeling of this project includes building a pipeline that will include the following model classifiers:
+Modeling consists of several steps: splitting the data into training and test sets, selecting the models to be tested, choosing the hyperparameters, and executing a grid search pipeline. After the pipeline completes, the scores of the modeles are evaluated and a final model/configuration is selected.
+<img src="https://drive.google.com/uc?export=view&id=1pEGYkeeU1Km40oB6aKgYwNqIGOlrnrMF" width="500" >
+
+For this project the pipeline will include the following model classifiers:
 
 * Logistic Regression as a baseline
 * K-Nearest Neighbor (KNN)
