@@ -142,7 +142,7 @@ WESAD (Wearable Stress and Affect Detection) contains data of 15 subjects during
 
  The WESAD dataset include Electrocardiogram (ECG) measures of various subjects during hours of stressing, amusing, relaxing, and neutral situations. Below is a table listing the ECG data field acronyms with their definitions, although a smaller subset will used:
 
-<img src="https://drive.google.com/uc?export=view&id=141L2sk49Ijk0Tp8tlpLBZcXPi6EAlPFW" width="200">
+<img src="https://drive.google.com/uc?export=view&id=141L2sk49Ijk0Tp8tlpLBZcXPi6EAlPFW" width="400">
 
 ## ****Data Sample****
 
@@ -165,14 +165,14 @@ Data preparation is a key step in the data analysis process, laying the foundati
 Below is the process that will be used in this project:
 
 
-<img src="https://drive.google.com/uc?export=view&id=1o5_aqAuQWl_M5e7BRnIiHL_1m2vwR63x" width="800" >
+<img src="https://drive.google.com/uc?export=view&id=1o5_aqAuQWl_M5e7BRnIiHL_1m2vwR63x" width="900" >
 
 
-## ****Heart Rate Variability****
+## **Heart Rate Variability**
 
 From this inital analysis of the data, we must isolate the heart beats. Our goal is to detrend the ECG time series data and then apply stationary algorythms to isolate the individual wave forms.
 
-### ***Identify the Peaks***
+### **Identify the Peaks**
 
 Identifying the peaks is critical to calulating the inter-beat interval. It must be calculated with accuracy as the variation between the beats is used to determine the HRV values.
 
@@ -205,7 +205,7 @@ For this project the pipeline will include the following model classifiers:
 * Support Vector Decomposition (SVD)
 
 The following parameters will be used for the training and evaluation"
-<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" >
+<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="200" >
 
 # **5. Evaluation**
 
@@ -217,11 +217,27 @@ The following parameters will be used for the training and evaluation"
 
 ### **Model Results vs Business Criteria**
 
-** In Progress**
+
 
 ### **Next Steps**
 
-** In Progress**
+We could continue to experiment with the hyperparameters to get a better result. At some point, you reach a score that meets your needs without further refinement. Factors such as time or computing resource constraints may dictate how much effort is expended to achieve a near perfecet model.
+<p></p>
+Another major decision is whether the model is ready for productional use. In this case we will ue the trained model to determione if it can directly classify a person's stress level from a minute's worth of data taken from a wearble device. 
+
+# **6. Deployment**
+In the deployment stage, the model is put into operational use. In this case, the model will be used to process data collected from a mobile app that is under development. The app will use Photoplethysmography (PPG)to capture heart rate data from a person's finger. Photoplethysmography (PPG) can be effectively utilized with a smartphone camera to measure heart rate, offering a convenient and accessible method for health monitoring. The process works by detecting subtle color changes in the skin that occur with each heartbeat.
+
+After data capture, the recording will be sent from the app to a host for processing. The model that was developein this project will read the data from the host and use the trained model to determine the state of stress.
+
+In future releases the model will be encoded dircty into the smartphone and the PPG data can be used to display an indicator of the level of stress.
+
+Below are images of the app that has been developed for this purpose.
+
+<img src="https://drive.google.com/uc?export=view&id=1IBDnHMRPgRDuc7QwmsfKKAyLXkv7_Npr" width="800" >
+
+
+
 
 # **References**
 
