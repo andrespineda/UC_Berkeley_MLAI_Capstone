@@ -270,18 +270,21 @@ Next steps include improving the classification model with new hyperparameters a
 # **6. Deployment**
 The plan is to use this classification model to process data collected from a mobile app that is currently under development. The app uses Photoplethysmography(PPG) to capture heart rate data from a person's finger. PPG has been proven to be effective within a smartphone camera to measure heart rate (De Ridder, B.,et.al., 2018). The process works by detecting subtle color changes in the skin that occur with each heartbeat.
 
-# ***Phased Deployment***
+## ***Phased Deployment***
 The deployment will be conducted in two phases as depicted below.
+
+
 <img src="https://drive.google.com/uc?export=view&id=1-2hp40ht9h65txKVy_w630j7H8g9sDBF" width="500" align="center">
 
 
-## ***Phase 1 - Capstone Project***
+### ***Phase 1 - Capstone Project***
 The user will periodically capture PPG readings that are stored on the smartphone. The readings can be uploaded to a cloud host for storage. A computer running the classification model can then be used to download the PPG recordings and determine the state of stress using the current classification model.
 
-## ***Phase 2 - Near Future***
+### ***Phase 2 - Near Future***
 In Phase 2, the classification model will be encoded directly into the smartphone using Tensorflow Lite.  The PPG data will be processed locally and the result will display on a "Stress Indicator" on the same phone.
 ___
 Below are images of the current state of the app. It is fully functional, but lacks some cosmetic refinements.
+
 
 <img src="https://drive.google.com/uc?export=view&id=1iNJ4bMx36tZV-FkrJ-gm3F3JPIDq5635" width="600" align="center" >
 
