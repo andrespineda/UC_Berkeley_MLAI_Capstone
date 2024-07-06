@@ -265,28 +265,27 @@ The Decision Tree model clearly met all of our business performance requirements
 
 ### **Next Steps**
 
-We will continue to experiment with the hyperparameters to get a better result. Also, we will be learning new modeling techniques and those will be tested against the current models. 
-The ultimate goal is to create a classification model using Tensorlow Lite
+Next steps include improving the classification model with new hyperparameters and incorporating new models, such as Convolutional Neural Networks (CNN).
 
 # **6. Deployment**
-Another major decision to be made is whether the model is ready for productional use. In this case we will use the trained model to determine if it can directly classify a person's stress level from a minute's worth of data taken from a wearble device. The plan is to use this model to process data collected from a mobile app that is currently under development. The app uses Photoplethysmography(PPG) to capture heart rate data from a person's finger. PPG has been proven to be effective within a smartphone camera to measure heart rate (De Ridder, B.,et.al., 2018). The process works by detecting subtle color changes in the skin that occur with each heartbeat.
+The plan is to use this classification model to process data collected from a mobile app that is currently under development. The app uses Photoplethysmography(PPG) to capture heart rate data from a person's finger. PPG has been proven to be effective within a smartphone camera to measure heart rate (De Ridder, B.,et.al., 2018). The process works by detecting subtle color changes in the skin that occur with each heartbeat.
 
-
+____
 The deployment will be conducted in two phases as depicted below.
-<img src="https://drive.google.com/uc?export=view&id=1-2hp40ht9h65txKVy_w630j7H8g9sDBF" width="800" >
+<img src="https://drive.google.com/uc?export=view&id=1-2hp40ht9h65txKVy_w630j7H8g9sDBF" width="600" >
 
 
-## **Phase 1 - Today***
+## ***Phase 1 - Today***
 The user will periodically capture PPG readings that are stored on the smartphone. The readings can be uploaded to a cloud host for storage. A computer running the classification model can then be used to download the PPG recordings and determine the state of stress using the current classification model.
 
-## **Phase 2 - Near Future***
+## ***Phase 2 - Near Future***
 In Phase 2, the classification model will be encoded directly into the smartphone using Tensorflow Lite.  The PPG data will be processed locally and the result will display on a "Stress Indicator".
-
+___
 Below are images of the current state of the app. It is fully functional, but lacks some cosmetic refinements.
 
-<img src="https://drive.google.com/uc?export=view&id=1IBDnHMRPgRDuc7QwmsfKKAyLXkv7_Npr" width="600" >
+<img src="https://drive.google.com/uc?export=view&id=1IBDnHMRPgRDuc7QwmsfKKAyLXkv7_Npr" width="400" >
 
-
+____
 
 
 # **References**
