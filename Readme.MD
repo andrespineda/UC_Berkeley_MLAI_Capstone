@@ -272,7 +272,7 @@ The plan is to use this classification model to process data collected from a mo
 
 ____
 The deployment will be conducted in two phases as depicted below.
-<img src="https://drive.google.com/uc?export=view&id=1-2hp40ht9h65txKVy_w630j7H8g9sDBF" width="600" >
+<img src="https://drive.google.com/uc?export=view&id=1-2hp40ht9h65txKVy_w630j7H8g9sDBF" width="500" align="center">
 
 
 ## ***Phase 1 - Today***
@@ -283,7 +283,8 @@ In Phase 2, the classification model will be encoded directly into the smartphon
 ___
 Below are images of the current state of the app. It is fully functional, but lacks some cosmetic refinements.
 
-<img src="https://drive.google.com/uc?export=view&id=1IBDnHMRPgRDuc7QwmsfKKAyLXkv7_Npr" width="400" >
+<img src="https://drive.google.com/uc?export=view&id=1iNJ4bMx36tZV-FkrJ-gm3F3JPIDq5635r" width="600" align="center" >
+
 
 ____
 
