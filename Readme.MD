@@ -212,7 +212,8 @@ Modeling consists of several steps:
 * **Tune the hyperparameters and rerun to improve the performance.**
 * **Finally, evaluate the Precision, Recall, and F1 scores so we can select the best model.**
 
-<img src="https://drive.google.com/uc?export=view&id=1pEGYkeeU1Km40oB6aKgYwNqIGOlrnrMF" width="800" >
+<img src="https://drive.google.com/uc?export=view&id=1creP2Ina_DVaWzU4ovN3Wb08mVH1YHXD" width="800" >
+
 
 
 ### ***A Simple Baseline Model***
