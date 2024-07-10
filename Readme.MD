@@ -175,6 +175,18 @@ Below is the process that will be used in this project:
 
 From this inital analysis of the data, we must isolate the heart beats. Our goal is to detrend the ECG time series data and then apply stationary algorithms to isolate the individual wave forms.
 
+### **Challenges**
+An ideal heart rate signal as depicted in the upper left corner of the diagram below has a clearly defined waveform with easy to identify peaks. However, in reality, an actual heart rate signal can be hard to process. The two main contributors to a less than ideal signal are : body movement during capture, and weak signal from the electronics.
+* **Body Movements**
+
+Body movement is a large concern in wearable technology as the human body is always in motion. Even slight movements of the hands or fingers can cause an erratic electrical signal. Clinical electrodes are usually taped to the body and are not as easily influenced by body movements.
+
+* **Weak Signal**
+Wearable devices try to conserve battery life by using as little energy as possible. When gathering heart rate signales, the manufacturer may elect to use a low frequency signal to capture the heart rate, or limit the amount of data captured. This weak signal will require amplification and processing for accurate HRV detection.
+
+
+<img src="https://drive.google.com/uc?export=view&id=1XaoV6yHBorHuiUJHqBMryfJ0kqx2a97o" width="900" >
+
 #### **Identify the Peaks**
 
 Identifying the peaks is critical to calulating the inter-beat interval. It must be calculated with accuracy as the variation between the beats is used to determine the HRV values.
@@ -267,6 +279,13 @@ The Decision Tree model clearly met all of our business performance requirements
 ### **Next Steps**
 
 Next steps include improving the classification model with new hyperparameters and incorporating new models, such as Convolutional Neural Networks (CNN).
+
+The models used so far are considered "Shallow Machine Learning" as they use relatively simple statistical methods to compute and classify the data.
+
+For the next iteration of modeling, we will use "Deep Learning" models that introduce much more complex Neural Networks to process the incoming signals. Several deep learning models will be considered as depicted in the following diagram.
+
+<img src="https://drive.google.com/uc?export=view&id=1egRI8UC5iuXH4LnldxcF_lDA1wN8MAzU" width="1000" >
+
 
 # **6. Deployment**
 The plan is to use this classification model to process data collected from a mobile app that is currently under development. The app uses Photoplethysmography(PPG) to capture heart rate data from a person's finger. PPG has been proven to be effective within a smartphone camera to measure heart rate (De Ridder, B.,et.al., 2018). The process works by detecting subtle color changes in the skin that occur with each heartbeat.
