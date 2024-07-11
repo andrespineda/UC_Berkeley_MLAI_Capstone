@@ -176,12 +176,14 @@ Below is the process that will be used in this project:
 From this inital analysis of the data, we must isolate the heart beats. Our goal is to detrend the ECG time series data and then apply stationary algorithms to isolate the individual wave forms.
 
 ### **Challenges**
-An ideal heart rate signal as depicted in the upper left corner of the diagram below has a clearly defined waveform with easy to identify peaks. However, in reality, an actual heart rate signal can be hard to process. The two main contributors to a less than ideal signal are : body movement during capture, and weak signal from the electronics.
+An ideal heart rate signal has a clearly defined waveform with easy to identify peaks. However, in reality, an actual heart rate signal can be hard to process. The two main contributors to a less than ideal signal are : body movement during capture, and weak signal from the electronics.
+
 * **Body Movements**
 
 Body movement is a large concern in wearable technology as the human body is always in motion. Even slight movements of the hands or fingers can cause an erratic electrical signal. Clinical electrodes are usually taped to the body and are not as easily influenced by body movements.
 
 * **Weak Signal**
+
 Wearable devices try to conserve battery life by using as little energy as possible. When gathering heart rate signales, the manufacturer may elect to use a low frequency signal to capture the heart rate, or limit the amount of data captured. This weak signal will require amplification and processing for accurate HRV detection.
 
 #### **Identify the Peaks**
