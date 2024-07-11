@@ -192,8 +192,7 @@ Identifying the peaks is critical to calulating the inter-beat interval. It must
 
 Below is a sample plot showing the identification of the peaks.
 
-
-<img src="https://drive.google.com/uc?export=view&id=11LCMYb-TeIgD1Nn0l6MDdrHRMJcFG9wJ" width="600" >
+<img src="https://drive.google.com/uc?export=view&id=1LgK-WC_0DhzWs0IfMfQ79FWFMuG-3nBw" width="600" >
 
 And here is an isolated heartbeat from the selected data.
 
