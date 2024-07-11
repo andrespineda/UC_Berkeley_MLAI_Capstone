@@ -184,9 +184,6 @@ Body movement is a large concern in wearable technology as the human body is alw
 * **Weak Signal**
 Wearable devices try to conserve battery life by using as little energy as possible. When gathering heart rate signales, the manufacturer may elect to use a low frequency signal to capture the heart rate, or limit the amount of data captured. This weak signal will require amplification and processing for accurate HRV detection.
 
-
-<img src="https://drive.google.com/uc?export=view&id=1XaoV6yHBorHuiUJHqBMryfJ0kqx2a97o" width="900" >
-
 #### **Identify the Peaks**
 
 Identifying the peaks is critical to calulating the inter-beat interval. It must be calculated with accuracy as the variation between the beats is used to determine the HRV values.
@@ -282,9 +279,7 @@ Next steps include improving the classification model with new hyperparameters a
 
 The models used so far are considered "Shallow Machine Learning" as they use relatively simple statistical methods to compute and classify the data.
 
-For the next iteration of modeling, we will use "Deep Learning" models that introduce much more complex Neural Networks to process the incoming signals. Several deep learning models will be considered as depicted in the following diagram.
-
-<img src="https://drive.google.com/uc?export=view&id=1egRI8UC5iuXH4LnldxcF_lDA1wN8MAzU" width="1000" >
+For the next iteration of modeling, we will use "Deep Learning" models that introduce much more complex Neural Networks to process the incoming signals. 
 
 
 # **6. Deployment**
