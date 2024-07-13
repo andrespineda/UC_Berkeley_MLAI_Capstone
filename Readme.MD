@@ -282,7 +282,7 @@ A Convolutional Neural Network (CNN) was used for additional Modeling and compar
 
 The CNN model used has the following structure.
 
-<img src="https://drive.google.com/uc?export=view&id=1f2-uwG3o2t8yCWqCbdXmNCc-f4_0fRaR" width="400" >
+<img src="https://drive.google.com/uc?export=view&id=1f2-uwG3o2t8yCWqCbdXmNCc-f4_0fRaR" width="300" >
 
 The CNN model achieved superior results as depicted in the Confusion Matrix.
 
