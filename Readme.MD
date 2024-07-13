@@ -24,41 +24,38 @@ The associated notebooks for this project are located within the main repository
 This project was developed as the Capstone Project to the UC Berkeley Professional Certificate in Machine Learning and Artificial Intelligence Program. The program provides practical insights into the business applications of ML and AI technologies(UC Berkeley Executive Education., n.d.)
 ## **Methodology**
 
-The Data Analysis will use the Cross Industry Standard Process for Data Mining (CRISP-DM) method
-(Schröer, et al, 2021) of data analysis.
+The Data Analysis will use the Cross Industry Standard Process for Data Mining (CRISP-DM) method (Schröer, et al, 2021) of data analysis.
 <img src="https://drive.google.com/uc?export=view&id=1Yp9cIXrpcM5DzDSvAsFOSyjmx9HEc-h4" width="200" align="right">
 **CRISP-DM**
 
 The CRISP-DM (Cross-Industry Standard Process for Data Mining) approach
 to data analysis involves six major steps as outlined below:
 
-1. **Understanding the Business:** This initial step involves conducting an
-    in-depth analysis of the business objectives and needs. It includes
-    assessing the current situation, defining goals based on insights, and
-    setting up a plan to proceed.
+1. **Understanding the Business:**
 
-2. **Understanding the Data:** In this phase, data is collected from various
-    sources (WESAD was selected), its format and type are determined, and the data is profiled.
-    Tasks include exploring the data, describing it, and ensuring its
-    quality, accuracy, and validity.
+This initial step involves conducting an in-depth analysis of the business objectives and needs. It includes assessing the current situation, defining goals based on insights, and setting up a plan to proceed.
 
-3. **Data Preparation:** Careful selection, cleansing, construction, and formatting of the data are carried out in this step. The data are organized for modeling, and information exploration is conducted to
-identify patterns aligned with business insights.
+2. **Understanding the Data:**
 
-4. **Modeling:** The modeling phase involves selecting modeling techniques,
-    generating test scenarios for validation, building various models, and
-    assessing them to ensure alignment with business objectives.
+In this phase, data is collected from various sources (WESAD and SWELL was selected), its format and type are determined, and the data is profiled. Tasks include exploring the data, describing it, and ensuring its quality, accuracy, and validity.
 
-5. **Evaluation:** During this phase, the results of the models are evaluated
-    against business intentions. Multiple models are assessed to determine
-    which one best meets the project's goals.
+3. **Data Preparation:**
 
-6. **Deployment/Communication:** The final step involves presenting the
-    gathered information in a usable manner to stakeholders according to
-    their expectations and business requirements. This phase may vary in
-    complexity based on numerous factors.
+Careful selection, cleansing, construction, and formatting of the data are carried out in this step. The data are organized for modeling, and formation exploration is conducted to identify patterns aligned with business insights.
 
-  # **1.Understanding the Business**
+4. **Modeling:**
+
+The modeling phase involves selecting modeling techniques, generating test scenarios for validation, building various models, and assessing them to ensure alignment with business objectives.
+
+5. **Evaluation:**
+
+During this phase, the results of the models are evaluated against business intentions. Multiple models are assessed to determine which one best meets the project's goals.
+
+6. **Deployment/Communication:**
+
+The final step involves presenting the gathered information in a usable manner to stakeholders according to their expectations and business requirements. This phase may vary in complexity based on numerous factors.
+
+# **1.Understanding the Business**
 
 ## **Background**
 
@@ -74,18 +71,18 @@ Some indications of the ill effects of stress can be visually identified without
 
 ## **Business Objective**
 
-The business objective is to develop a machine learning classification model that is capable of determining whether heart rate samples collected from a wearable device can accurately detect stress patterns.
+The business objective is to develop a machine learning classification model that can determine whether heart rate samples collected from a wearable device can accurately detect stress patterns.
 <img src="https://drive.google.com/uc?export=view&id=1zFLLzvzUrRhbGLWCeul-OlYxkslJKq-0" width="100" align="right">
-The heart beat cadence, the time interval between beats, has been proven to be a reliable indicator of stress. 
+The heartbeat cadence, the time interval between beats, has been proven to be a reliable indicator of stress. 
 
-Counterintuitively, a predictive pattern of regular time intervals is indicative of a stressful situation. A non stressful measurement will include a variation in the pattern of beats.
+Counterintuitively, a predictive pattern of regular time intervals is indicative of a stressful situation. A non-stressful measurement will include a variation in the pattern of beats.
 
-HRV, or Heart Rate Variability, is a medical term for the measurement of the variation in time between each heartbeat. Collected HRV data will be used to train a classification model. By <img src="https://drive.google.com/uc?export=view&id=1W2hHDY8_hInFz-_-raeMBFiXqphtDkjA" width="100" align="right">training a classification model  we will be able to take measurements of HRV and determine whether someone is stressed or not. We will use labeled datasets that have been captured during stressful and non stressful conditions for training.  The labeled data will be used to teach the model to recognize patterns that differentiate between the two conditions. Once trained, the model will be able to classify new input files of HRV data, allowing us to better understand the relationship between HRV and stress.
+HRV, or Heart Rate Variability, is a medical term for the measurement of the variation in time between each heartbeat. Collected HRV data will be used to train a classification model. By <img src="https://drive.google.com/uc?export=view&id=1W2hHDY8_hInFz-_-raeMBFiXqphtDkjA" width="100" align="right">training a classification model  we will be able to take measurements of HRV and determine whether someone is stressed or not. We will use labeled datasets that have been captured during stressful and non-stressful conditions for training.  The labeled data will be used to teach the model to recognize patterns that differentiate between the two conditions. Once trained, the model will be able to classify new input files of HRV data, allowing us to better understand the relationship between HRV and stress.
 
 ## **Why is this important?**
 
 <img src="https://drive.google.com/uc?export=view&id=1xofI99rMfYiWtCE8PSsJXvzjCfgqjZn3" width="100" align="right">
-Using an inexpensive wearable device to capture, classify, and present a visual indicator of a person's stress level can help reduce a serious problem faced by young adults. This tool would allow a person to self-monitor and control their stress levels without the need for expensive clinical equipment or visits to a medical facility.
+Using an inexpensive wearable device to capture, classify, and present a visual indicator of a person's stress level can help reduce a severe problem faced by young adults. This tool would allow a person to self-monitor and control their stress levels without the need for expensive clinical equipment or visits to a medical facility.
 
 ## **How can this be achieved?**
 
@@ -110,19 +107,19 @@ By tracking HRV over time, individuals can gain valuable insights into stress le
 
 The goal is to create a classification model can <img src="https://drive.google.com/uc?export=view&id=17T01ru8CDzj_pRrUQp9KhFqX8jnUFrzF" width="100" align="right">accurately classify stress level categories using a short sampling of HRV data. Ideally, a sampling period of one to three minutes will be sufficient for the model to classify the stress level during the sampling period.
 
-With the proliferation of wearable technology, such as an Apple watch, or even a smartphone with a camera, there are new opportunities to capture HRV data. The captured data can be processed by the trained classification model to assess the stress level of <img src="https://drive.google.com/uc?export=view&id=1sFKYDVTvq4tzEb3t3hqCwSWAKGXZLmwN" width="50" align="right">the person immediately after the data was captured. The results of the classification model need to be presented to the user via a easy-to-understand visual stress indicator on their smartphone. For example, a circular gauge that goes from blue for low stress to red to indicate high stress. Other similar user interfaces will be considered for ease of use and effectiveness.
+With the proliferation of wearable technology, such as an Apple watch, or even a smartphone with a camera, there are new opportunities to capture HRV data. The trained classification model will be able to immediatly assess the stress level of <img src="https://drive.google.com/uc?export=view&id=1sFKYDVTvq4tzEb3t3hqCwSWAKGXZLmwN" width="50" align="right">the person. The results of the classification model need to be presented to the user via a easy-to-understand visual stress indicator on their smartphone. For example, a circular gauge that goes from blue for low stress to red to indicate high stress. Other similar user interfaces will be considered for ease of use and effectiveness.
 
 
 ## **Business Success Criteria**
 
 The success criteria will be based on meeting the following measurable results:
 
-1. A classification model will be developed that can take as input a one to three minute recording of a person's heart rate.
-2. The classification model will be able to use the captured data to classify the readings as stressful or non-stressful.  
+1. A classification model will be developed that can take as input a one-to-three minute recording of a person's heart rate.
+2. The classification model will be able to use the captured data to classify the readings as stressful or non-stressful.
 
-3. The expected accuracy of the predictions will be a recall score (sensitivity or true-positive rate) of at least 85%. It is important for the model to correctly identify true-positives so that the person can take corrective action. In this problem, a high recall value is preferable than a high accuracy score.
+3. The expected accuracy of the predictions will be a recall score (sensitivity or true positive rate) of at least 85%. It is important for the model to correctly identify true positives so that the person can take corrective action. In this problem, a high recall value is preferable to a high accuracy score.
 
-4. The classification model will be able to classify within 15 seconds. The model will eventually operate within a smartphone and it wil be important for the user to be able to get a stress reading within a short time after taking a heart rate sample.
+4. The classification model will be able to classify within 15 seconds. The model will eventually operate within a smartphone as it wil be important for the user to be able to get a stress reading immediately after taking a heart rate sample.
 
 # **Understanding the Data**
 ## ****Data Sources****
@@ -139,7 +136,7 @@ The original published paper and links to download the dataset can be found via 
 
 https://archive.ics.uci.edu/dataset/465/wesad+wearable+stress+and+affect+detection
 
-A second dataset was used for Convolutional Neural Network Modeling to show the ability to process additional type of data.
+A second dataset was used for Convolutional Neural Network Modeling to show the ability to process additional types of data.
 
 **SWELL**
 
@@ -153,7 +150,7 @@ https://www.cs.ru.nl/~skoldijk/Papers/ICMI%202014%20paper_final_cr.pdf
 ## ****Data Content****
 
 
-The WESAD dataset include Electrocardiogram (ECG) measures of various subjects during hours of stressing, amusing, relaxing, and neutral situations.
+The WESAD dataset includes Electrocardiogram (ECG) measures of various subjects during hours of stressing, amusing, relaxing, and neutral situations.
 
 Below is a table listing the ECG data field acronyms with their definitions, although a smaller subset will used in the training:
 
@@ -163,7 +160,7 @@ Below is a table listing the ECG data field acronyms with their definitions, alt
 
 The selected data for this project consists of **2.1M rows** of ECG and related data elements.
 
-The data's target variable is labeled in three categories: Baseline (no stress), Stress, or Amusement(Happy) as depicetd by the following pie cart:
+The data's target variable is labeled in three categories: Baseline (no stress), Stress, or Amusement(Happy) as depicted by the following pie chart:
 
 <img src="https://drive.google.com/uc?export=view&id=1-bJA4DtNO3UYlw6q7LrywquHg5aiiqKQ" width="200">
 
@@ -175,7 +172,7 @@ Below is a sample of the ECG signal from this data:
 
 ## ****Data Prep****
 
-Data preparation is a key step in the data analysis process, laying the foundation for accurate and meaningful insights. This phase involves several key tasks to ensure the data is clean, consistent, and ready for analysis. Initially, data must be collected from the WESAD datasetand consolidated into a unified format. Raw data often contains errors, missing values, and inconsistencies that need to be addressed through data cleaning techniques such as removing duplicates, handling missing values, and correcting formatting issues. Data transformation may be necessary to convert variables into appropriate formats or to create derived features that enhance the analysis. Normalization and standardization techniques are often applied to ensure comparability across different scales.  Finally, data reduction techniques like feature selection or dimensionality reduction may be employed to focus on the most relevant variables and improve computational efficiency. This comprehensive data preparation process is vital for producing reliable and actionable insights in subsequent analysis stages.
+Data preparation is a key step in the data analysis process, laying the foundation for accurate and meaningful insights. This phase involves several key tasks to ensure the data is clean, consistent, and ready for analysis. Initially, data must be collected from the WESAD dataset and consolidated into a unified format. Raw data often contains errors, missing values, and inconsistencies that need to be addressed through data cleaning techniques such as removing duplicates, adjusting missing values, and correcting formatting issues. Data transformation may be necessary to convert variables into appropriate formats or to create derived features that enhance the analysis. Normalization and standardization techniques are often applied to ensure comparability across different scales.  Finally, data reduction techniques like feature selection or dimensionality reduction may be employed to focus on the most relevant variables and improve computational efficiency. This comprehensive data preparation process is vital for producing reliable and actionable insights in subsequent analysis stages.
 
 Below is the process that will be used in this project:
 
@@ -185,10 +182,10 @@ Below is the process that will be used in this project:
 
 ## **Heart Rate Variability**
 
-From this inital analysis of the data, we must isolate the heart beats. Our goal is to detrend the ECG time series data and then apply stationary algorithms to isolate the individual wave forms.
+From this initial analysis of the data, we must isolate the heart beats. Our goal is to detrend the ECG time series data and then apply stationary algorithms to isolate the individual wave forms.
 
 ### **Challenges**
-An ideal heart rate signal has a clearly defined waveform with easy to identify peaks. However, in reality, an actual heart rate signal can be hard to process. The two main contributors to a less than ideal signal are : body movement during capture, and weak signal from the electronics.
+An ideal heart rate signal has a clearly defined waveform with easy to identify peaks. However, an actual heart rate signal can be hard to process. The two main contributors to a less-than-ideal signal are : body movement during capture, and weak signal from the electronics.
 
 * **Body Movements**
 
@@ -196,11 +193,11 @@ Body movement is a large concern in wearable technology as the human body is alw
 
 * **Weak Signal**
 
-Wearable devices try to conserve battery life by using as little energy as possible. When gathering heart rate signales, the manufacturer may elect to use a low frequency signal to capture the heart rate, or limit the amount of data captured. This weak signal will require amplification and processing for accurate HRV detection.
+Wearable devices try to conserve battery life by using as little energy as possible. When gathering heart rate signals, the manufacturer may elect to use a low frequency signal to capture the heart rate or limit the amount of data captured. This weak signal will require amplification and processing for accurate HRV detection.
 
 #### **Identify the Peaks**
 
-Identifying the peaks is critical to calulating the inter-beat interval. It must be calculated with accuracy as the variation between the beats is used to determine the HRV values.
+Identifying the peaks is critical to calculating the inter-beat interval. It must be calculated with accuracy as the variation between the beats is used to determine the HRV values.
 
 Below is a sample plot showing the identification of the peaks.
 
@@ -211,14 +208,14 @@ And here is an isolated heartbeat from the selected data.
 <img src="https://drive.google.com/uc?export=view&id=1JY8urcxphcBrVT9UIbG5dNaaNhPPgiZE" width="400" >
 
 
-#### **Calculate the Interbeat "RR" Interval**
-Now that the peaks are identified and the heart beat wave is stationary, we can calculate the distribution of RR Intervals. The RR Intervals are the distance between the peaks.
+#### **Calculate the Inter-beat "RR" Interval**
+Now that the peaks are identified and the heartbeat wave is stationary, we can calculate the distribution of RR Intervals. The RR Intervals are the distance between the peaks.
 
 Below is a plot of the distribution of RR intervals in the dataset.  We must eliminate the outliers and then use the distribution to begin classification based on the labeled dataset.
 
 <img src="https://drive.google.com/uc?export=view&id=1SBdilIaPJvgaIPsAkfyhG8jhMVXoY_Sr"  width= "300">
 
-Another useful plotting method is to use a Poincaré Plot. This plot compares each RR interval with the previous and plots the result as a 2 dimensional plot.
+Another useful plotting method is to use a Poincaré Plot. This plot compares each RR interval with the previous and plots the result as a 2-dimensional plot.
 
 <img src="https://drive.google.com/uc?export=view&id=1A-ZgRLHq0WyrSEjNqdetCvF0NFXbgGL_" width= "300" >
 
@@ -243,7 +240,7 @@ Modeling consists of several steps:
 Initially, we want to establish a Baseline model. A simple model that will establish a baseline score from which we can compare to subsequent models.
 
 For the baseline model we used a Logistic Regression model and achieved an accuracy score of **66%**.
-Not a very good score, but now we will now go through the process of improving the model using vaious hyper parameters.
+Not a particularly good score, but now we will now go through the process of improving the model using various hyper parameters.
 
 ### ***Model Comparisons***
 We will now run several other models (with minimal tuning) and compare their performance to the Logistic Regression model. We will try a basic KNN algorithm, Decision Tree, and SVM model. Using the default settings for each of the models, we will fit and score each. We will compare the fit time of each of the models.
@@ -259,10 +256,10 @@ The scores for these models are as follows.
 
 ### Improving the Model
 
-Now that we have some basic models on the board, we want to try to improve these.
-Below, we create models with different hyperperameters. 
+Now that we have some basic models scored, we will to try to improve them.
+Below, we will rerun the models with different hyperparameters. 
 
-The following hyperparameters will be used for the training and evaluation.
+The following hyperparameters were used for the training and evaluation.
 
 <img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="600" >
 
@@ -273,9 +270,9 @@ And here are the results of training and testing these models with the hyperpara
 
 # **Evaluation**
 
-For the evalution, we will perform another run that will produce Precision, Recall, and F1 scores.
+For the evaluation, we will perform another run that will produce Precision, Recall, and F1 scores.
 
-The Decision Tree model came up with the best scores of almost **97%** across the board as can be seen in the table below.
+The Decision Tree model produced the best scores of almost **97%** across the board as can be seen in the table below.
 
 <img src="https://drive.google.com/uc?export=view&id=1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF" width="500" >
 
@@ -297,13 +294,13 @@ The final scoring of the CNN Model resulted in values that outperformed the prio
 
 ### **Model Results vs Business Criteria**
 
-Both the Decision Tree model and the Convolutional Neural Nwtwork clearly met all of our business performance requirements.
+Both the Decision Tree model and the Convolutional Neural Network clearly met all business performance requirements.
 
 
 ### **Next Steps**
 
 Additional fine tuning of the "Deep Learning" models will be evaluated.
-The final model will be converted to a "Tensorflow-Lite" version that can be ported to a smartphone for onboard processing.
+The final model will be converted to a "TensorFlow-Lite" version that can be ported to a smartphone for onboard processing.
 
 
 # **Deployment**
@@ -320,9 +317,9 @@ The deployment will be conducted in two phases as depicted below.
 The user will periodically capture PPG readings that are stored on the smartphone. The readings can be uploaded to a cloud host for storage. A computer running the classification model can then be used to download the PPG recordings and determine the state of stress using the current classification model.
 
 ### ***Phase 2 - Near Future***
-In Phase 2, the classification model will be encoded directly into the smartphone using Tensorflow Lite.  The PPG data will be processed locally and the result will display on a "Stress Indicator" on the same phone.
+In Phase 2, the classification model will be encoded directly into the smartphone using TensorFlow-Lite.  The PPG data will be processed locally, and the result will display on a "Stress Indicator" on the same phone.
 ___
-Below are images of the current state of the app. It is fully functional, but lacks some cosmetic refinements.
+Below are images of the current state of the app. It is fully functional but lacks some cosmetic refinements.
 
 
 <img src="https://drive.google.com/uc?export=view&id=1iNJ4bMx36tZV-FkrJ-gm3F3JPIDq5635" width="600" align="center" >
@@ -344,7 +341,7 @@ ____
 
 * Nkurikiyeyezu, K., Yokokubo, A., & Lopez, G. (2020). The Effect of Person-Specific Biometrics in Improving Generic Stress Predictive Models. Journal of Sensors & Material, 1–12. http://arxiv.org/abs/1910.01770
 
-* Schmidt, P., Reiss, A., Duerichen, R., Marberger, C., & Van Laerhoven, K. (2018). Introducing WESAD, a Multimodal Dataset for Wearable Stress and Affect Detection. Proceedings of the 2018 on International Conference on Multimodal Interaction - ICMI ’18, 400–408. https://doi.org/10.1145/3242969.3242985
+* Schmidt, P., Reiss, A., Duerichen, R., Marberger, C., & Van Laerhoven, K. (2018). Introducing WESAD, a Multimodal Dataset for Wearable Stress and Affect Detection. Proceedings of the 2018 International Conference on Multimodal Interaction - ICMI ’18, 400–408. https://doi.org/10.1145/3242969.3242985
 
 * Statista. (2023, November 29). People experiencing stress, depression, and anxiety symptoms by age group worldwide 2022_. Health, Pharma & Medtech_.
 * UC Berkeley Executive Education. (n.d.). Professional Certificate in Machine Learning and Artificial Intelligence.  https://em-executive.berkeley.edu/professional-certificate-machine-learning-artificial-intelligence
