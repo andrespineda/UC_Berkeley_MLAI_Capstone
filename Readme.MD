@@ -13,7 +13,8 @@ The associated notebooks for this project are located within the main repository
 * [2. Understanding the Data](#Understanding-the-Data)
 * [3. Data Preparation](#Data-Preparation)
 * [4. Modeling](#Modeling)
-* [5. Evaluation](#Evaluation)
+* [5. Evaluation using Logistic Regression, Decision Tree, KNN, SVM](#Evaluation)
+* [5a. Evaluation using a Convolutional Neural Network](#Evaluation2)
 * [6. Deployment](#Deployment)
 * [References](#References)
 
@@ -289,17 +290,9 @@ The model achieved superior results as depicted inthe Confusion Matrix.
 
 <img src="https://drive.google.com/uc?export=view&id=11caX9FBlUv5RB0RfuY6pLl4bVlbodrd2" width="500" >
 
-The final scoring of the CNN Model resulted in values that outpeprformed the prior models and therefore also met and exceeded the Business Objectives.
+The final scoring of the CNN Model resulted in values that outperformed the prior models and therefore also met and exceeded the Business Objectives.
 
 <img src="https://drive.google.com/uc?export=view&id=1Mlp7UmJ4vHJk2O8Dq0oCPtDreC5llGzp" width="500" >
-
-
-
-
-
-
-
-
 
 ### **Model Results vs Business Criteria**
 
