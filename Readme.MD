@@ -9,13 +9,13 @@ The associated notebooks for this project are located within the main repository
 ## Table of Contents
 * [Introduction](#Introduction)
 * [Methodology](#Methodology)
-* [1. Understanding the Business](#1.-Understanding-the-Business)
-* [2. Understanding the Data](#Understanding-the-Data)
-* [3. Data Preparation](#Data-Preparation)
-* [4. Modeling](#4. Modeling)
-* [5. Evaluation using Logistic Regression, Decision Tree, KNN, SVM](#Evaluation)
-* [5a. Evaluation using a Convolutional Neural Network](#Evaluation2)
-* [6. Deployment](#Deployment)
+* [1. Understanding the Business](#1.Understanding-the-Business)
+* [2. Understanding the Data](#2.Understanding-the-Data)
+* [3. Data Preparation](#3.Data-Preparation)
+* [4. Modeling](#4.Modeling)
+* [5. Evaluation using Logistic Regression, Decision Tree, KNN, SVM](#5.Evaluation)
+* [5a. Evaluation using a Convolutional Neural Network](#5a.Evaluation)
+* [6. Deployment](#6.Deployment)
 * [References](#References)
 
 
@@ -58,7 +58,7 @@ identify patterns aligned with business insights.
     their expectations and business requirements. This phase may vary in
     complexity based on numerous factors.
 
-  # **1. Understanding the Business**
+  # **1.Understanding the Business**
 
 ## **Background**
 
