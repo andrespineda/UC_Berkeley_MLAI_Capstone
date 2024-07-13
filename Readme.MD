@@ -9,7 +9,7 @@ The associated notebooks for this project are located within the main repository
 ## Table of Contents
 * [Introduction](#Introduction)
 * [Methodology](#Methodology)
-* [1. Understanding the Business](#Understanding-the-Business)
+* [1. Understanding the Business](#1.-Understanding-the-Business)
 * [2. Understanding the Data](#Understanding-the-Data)
 * [3. Data Preparation](#Data-Preparation)
 * [4. Modeling](#Modeling)
