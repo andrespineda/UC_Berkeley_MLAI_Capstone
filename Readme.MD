@@ -265,7 +265,7 @@ The following hyperparameters were used for the training and evaluation.
 
 And here are the results of training and testing these models with the hyperparameters.
 
-<img src="https://drive.google.com/uc?export=view&id=1Snzgk4qoXVetWy7brNiOZI1uhuH8eRv_" width= "400" >
+<img src="https://drive.google.com/uc?export=view&id=1Snzgk4qoXVetWy7brNiOZI1uhuH8eRv_" width= "600" >
 
 
 # **Evaluation**
