@@ -13,8 +13,8 @@ The associated notebooks for this project are located within the main repository
 * [2. Understanding the Data](#Understanding-the-Data)
 * [3. Data Preparation](#Data-Preparation)
 * [4. Modeling](#Modeling)
-* [5. Evaluation using Logistic Regression, Decision Tree, KNN, SVM](#Evaluation)
-* [5a. Evaluation using a Convolutional Neural Network](#Evaluation-Using-Convolution-Neural-Networks)
+* [5a. Evaluation using Logistic Regression, Decision Tree, KNN, SVM](#Evaluation)
+* [5b. Evaluation using a Convolutional Neural Network](#Evaluation-Using-Convolution-Neural-Networks)
 * [6. Deployment](#Deployment)
 * [References](#References)
 
