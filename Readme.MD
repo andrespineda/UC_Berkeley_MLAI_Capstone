@@ -261,11 +261,11 @@ Below, we will rerun the models with different hyperparameters.
 
 The following hyperparameters were used for the training and evaluation.
 
-<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="600" >
+<img src="https://drive.google.com/uc?export=view&id=15ouWML1Xo6RuAdf6INY0DnYB1v6tvglp" width="400" >
 
 And here are the results of training and testing these models with the hyperparameters.
 
-<img src="https://drive.google.com/uc?export=view&id=1Snzgk4qoXVetWy7brNiOZI1uhuH8eRv_" width= "700" >
+<img src="https://drive.google.com/uc?export=view&id=1Snzgk4qoXVetWy7brNiOZI1uhuH8eRv_" width= "400" >
 
 
 # **Evaluation**
@@ -274,7 +274,7 @@ For the evaluation, we will perform another run that will produce Precision, Rec
 
 The Decision Tree model produced the best scores of almost **97%** across the board as can be seen in the table below.
 
-<img src="https://drive.google.com/uc?export=view&id=1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF" width="500" >
+<img src="https://drive.google.com/uc?export=view&id=1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF" width="400" >
 
 # **Evaluation Using Convolution Neural Networks**
 
