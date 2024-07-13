@@ -9,13 +9,13 @@ The associated notebooks for this project are located within the main repository
 ## Table of Contents
 * [Introduction](#Introduction)
 * [Methodology](#Methodology)
-* [1. Understanding the Business](#1.Understanding-the-Business)
-* [2. Understanding the Data](#2.Understanding-the-Data)
-* [3. Data Preparation](#3.Data-Preparation)
-* [4. Modeling](#4.Modeling)
-* [5. Evaluation using Logistic Regression, Decision Tree, KNN, SVM](#5.Evaluation)
-* [5a. Evaluation using a Convolutional Neural Network](#5a.Evaluation)
-* [6. Deployment](#6.Deployment)
+* [1. Understanding the Business](#Understanding-the-Business)
+* [2. Understanding the Data](#Understanding-the-Data)
+* [3. Data Preparation](#Data-Preparation)
+* [4. Modeling](#Modeling)
+* [5. Evaluation using Logistic Regression, Decision Tree, KNN, SVM](#Evaluation)
+* [5a. Evaluation using a Convolutional Neural Network](#Evaluation-Using-Convolution-Neural-Networks)
+* [6. Deployment](#Deployment)
 * [References](#References)
 
 
@@ -124,7 +124,7 @@ The success criteria will be based on meeting the following measurable results:
 
 4. The classification model will be able to classify within 15 seconds. The model will eventually operate within a smartphone and it wil be important for the user to be able to get a stress reading within a short time after taking a heart rate sample.
 
-# **2. Understanding the Data**
+# **Understanding the Data**
 ## ****Data Sources****
 Developing an accurate machine learning model requires training data of heart rate signals during stressful and non-stressful conditions.
 
@@ -225,7 +225,7 @@ Another useful plotting method is to use a Poincaré Plot. This plot compares ea
 #### **Prepare the Data for Modeling**
 The data is then cleaned of outliers, reformatted, and split into Training, Test, and Validation sets.
 
-# **4. Modeling**
+# **Modeling**
 
 Modeling consists of several steps:
 * **Establish a baseline with a simple model.**
@@ -271,7 +271,7 @@ And here are the results of training and testing these models with the hyperpara
 <img src="https://drive.google.com/uc?export=view&id=1Snzgk4qoXVetWy7brNiOZI1uhuH8eRv_" width= "700" >
 
 
-# **5. Evaluation**
+# **Evaluation**
 
 For the evalution, we will perform another run that will produce Precision, Recall, and F1 scores.
 
@@ -279,7 +279,7 @@ The Decision Tree model came up with the best scores of almost **97%** across th
 
 <img src="https://drive.google.com/uc?export=view&id=1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF" width="500" >
 
-# **5a. Evaluation Using Convolution Neural Networks**
+# **Evaluation Using Convolution Neural Networks**
 
 A Convolutional Neural Network (CNN) was used for furter Modeling.
 The model used has the following structure.
@@ -305,7 +305,7 @@ Additional fine tuning of the "Deep Learning" models will be evaluated.
 The final model will be converted to a "Tensorflow-Lite" version that can be ported to a smartphone for onboard processing.
 
 
-# **6. Deployment**
+# **Deployment**
 The plan is to use this classification model to process data collected from a mobile app that is currently under development. The app uses Photoplethysmography(PPG) to capture heart rate data from a person's finger. PPG has been proven to be effective within a smartphone camera to measure heart rate (De Ridder, B.,et.al., 2018). The process works by detecting subtle color changes in the skin that occur with each heartbeat.
 
 ## ***Phased Deployment***
