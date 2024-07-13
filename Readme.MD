@@ -4,8 +4,7 @@ The associated notebooks for this project are located within the main repository
 
 * **Data Analysis and Modeling:** HRV_Stress_Detection.ipynb
 
-* **Data Prep Notebook:** WESAD_Data_Preprocessing.ipnb
-The Data Prep Notebook is only needed if you need to access other files within the large WESAD dataset. In this notebook, we only used S2 data as it contains over 2M rows.
+* **Data Analysis and Modeling:** HRV_Keras_CNN.ipynb
 
 ## Table of Contents
 * [Introduction](#Introduction)
@@ -128,14 +127,26 @@ The success criteria will be based on meeting the following measurable results:
 ## ****Data Sources****
 Developing an accurate machine learning model requires training data of heart rate signals during stressful and non-stressful conditions.
 
-An ideal data source was identified for this project:
+An data source was identified for this project:
 
 
 **WESAD**
 
 WESAD (Wearable Stress and Affect Detection) contains data of 15 subjects during a stress-affect lab study, while wearing physiological and motion sensors. WESAD is a publicly available dataset for wearable stress and affect detection. This multimodal dataset features physiological and motion data, recorded from both a wrist- and a chest-worn device, of 15 subjects during a lab study. The following sensor modalities are included: blood volume pulse, electrocardiogram, electrodermal activity, electromyogram, respiration, body temperature, and three-axis acceleration. Moreover, the dataset bridges the gap between previous lab studies on stress and emotions, by containing three different affective states (neutral, stress, amusement). In addition, self-reports of the subjects, which were obtained using several established questionnaires, are contained in the dataset.(Schmidt, et.al., 2018)
 
-The original published paper and links to download the dataset can be found via this link: https://archive.ics.uci.edu/dataset/465/wesad+wearable+stress+and+affect+detection
+The original published paper and links to download the dataset can be found via this link:
+
+https://archive.ics.uci.edu/dataset/465/wesad+wearable+stress+and+affect+detection
+
+A second dataset was used for Convolutional Neural Network Modeling to show the ability to process additional type of data.
+
+**SWELL**
+
+In 2014, a study was conducted to measure the heart rate of a group under normal and stressful conditions. The data was collected by researchers at the Institute for Computing and Information Sciences at Radboud University (Koldijk, S., et.al.,2014). The dataset, referred to as SWELL, consists of heart rate signal recordings of 25 subjects doing typical office work, including writing reports, making presentations, reading e-mail and searching for information. The scientists recorded the signals during typical working stressors such as receiving unexpected emails interruptions and pressure to complete their work on time.
+
+A copy of the original paper can be found at this location:
+
+https://www.cs.ru.nl/~skoldijk/Papers/ICMI%202014%20paper_final_cr.pdf
 
 
 ## ****Data Content****
@@ -267,20 +278,38 @@ The Decision Tree model came up with the best scores of almost **97%** across th
 
 <img src="https://drive.google.com/uc?export=view&id=1WxiTAr9NInN4zJcG1hc0DuhTHaP5WdyF" width="500" >
 
+# **5a. Evaluation Using Convolution Neural Networks**
+
+A Convolutional Neural Network (CNN) was used for furter Modeling.
+The model used has the following structure.
+
+<img src="https://drive.google.com/uc?export=view&id=1f2-uwG3o2t8yCWqCbdXmNCc-f4_0fRaR" width="500" >
+
+The model achieved superior results as depicted inthe Confusion Matrix.
+
+<img src="https://drive.google.com/uc?export=view&id=11caX9FBlUv5RB0RfuY6pLl4bVlbodrd2" width="500" >
+
+The final scoring of the CNN Model resulted in values that outpeprformed the prior models and therefore also met and exceeded the Business Objectives.
+
+<img src="https://drive.google.com/uc?export=view&id=1Mlp7UmJ4vHJk2O8Dq0oCPtDreC5llGzp" width="500" >
+
+
+
+
+
+
+
 
 
 ### **Model Results vs Business Criteria**
 
-The Decision Tree model clearly met all of our business performance requirements.
+Both the Decision Tree model and the Convolutional Neural Nwtwork clearly met all of our business performance requirements.
 
 
 ### **Next Steps**
 
-Next steps include improving the classification model with new hyperparameters and incorporating new models, such as Convolutional Neural Networks (CNN).
-
-The models used so far are considered "Shallow Machine Learning" as they use relatively simple statistical methods to compute and classify the data.
-
-For the next iteration of modeling, we will use "Deep Learning" models that introduce much more complex Neural Networks to process the incoming signals. 
+Additional fine tuning of the "Deep Learning" models will be evaluated.
+The final model will be converted to a "Tensorflow-Lite" version that can be ported to a smartphone for onboard processing.
 
 
 # **6. Deployment**
