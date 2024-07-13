@@ -281,18 +281,19 @@ The Decision Tree model came up with the best scores of almost **97%** across th
 
 # **Evaluation Using Convolution Neural Networks**
 
-A Convolutional Neural Network (CNN) was used for furter Modeling.
-The model used has the following structure.
+A Convolutional Neural Network (CNN) was used for additional Modeling and comparison with the other models.
 
-<img src="https://drive.google.com/uc?export=view&id=1f2-uwG3o2t8yCWqCbdXmNCc-f4_0fRaR" width="500" >
+The CNN model used has the following structure.
 
-The model achieved superior results as depicted inthe Confusion Matrix.
+<img src="https://drive.google.com/uc?export=view&id=1f2-uwG3o2t8yCWqCbdXmNCc-f4_0fRaR" width="400" >
 
-<img src="https://drive.google.com/uc?export=view&id=11caX9FBlUv5RB0RfuY6pLl4bVlbodrd2" width="500" >
+The CNN model achieved superior results as depicted in the Confusion Matrix.
+
+<img src="https://drive.google.com/uc?export=view&id=11caX9FBlUv5RB0RfuY6pLl4bVlbodrd2" width="400" >
 
 The final scoring of the CNN Model resulted in values that outperformed the prior models and therefore also met and exceeded the Business Objectives.
 
-<img src="https://drive.google.com/uc?export=view&id=1Mlp7UmJ4vHJk2O8Dq0oCPtDreC5llGzp" width="500" >
+<img src="https://drive.google.com/uc?export=view&id=1Mlp7UmJ4vHJk2O8Dq0oCPtDreC5llGzp" width="400" >
 
 ### **Model Results vs Business Criteria**
 
